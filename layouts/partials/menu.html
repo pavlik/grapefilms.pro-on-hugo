@@ -1,0 +1,6 @@
+    <ul class="nav nav-pills pull-right">
+    {{ $currentNode := . }}
+    {{ range .Site.Menus.main }}
+    	<li role="presentation"><a href="{{ .Url }}">{{ .Name }}</a></li>
+  	{{ end }}
+    </ul>
