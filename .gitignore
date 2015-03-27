@@ -1,4 +1,3 @@
-/public
 .DS_Store
-gfpro.sublime-project
-gfpro.sublime-workspace
+*.sublime-project
+*.sublime-workspace
