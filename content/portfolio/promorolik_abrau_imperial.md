@@ -7,7 +7,6 @@ keywords = ""
 photo = "imperial.jpg"
 production = "Wineholidays, Grapefilms"
 shooting = "Grapefilms"
-tags = ["портфолио"]
 title = "Промо-ролик отеля «Империал»"
 vimeo = "62927949"
 series = ["best"]

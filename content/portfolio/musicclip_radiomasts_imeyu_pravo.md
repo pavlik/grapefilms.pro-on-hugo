@@ -7,7 +7,6 @@ keywords = ""
 photo = "radiomasts_2.jpg"
 production = "Grapefilms"
 shooting = "Grapefilms"
-tags = ["портфолио"]
 title = "Музыкальный клипп «Имею право», группы Radio-Masts"
 vimeo = "53797043"
 

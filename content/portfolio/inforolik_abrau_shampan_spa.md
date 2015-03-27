@@ -7,7 +7,6 @@ keywords = ""
 photo = "spa.jpg"
 production = "Wineholidays, Grapefilms"
 shooting = "Grapefilms"
-tags = ["портфолио"]
 title = "Информационно-имиджевый ролик рассказывающий о пользе Шампань СПА"
 vimeo = "75863707"
 

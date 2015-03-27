@@ -7,7 +7,6 @@ keywords = ""
 photo = "rencapstroy.jpg"
 production = "Grapefilms"
 shooting = "Grapefilms"
-tags = ["портфолио"]
 title = "Корпоративный фильм компании «РенКапСтрой», г. Краснодар"
 vimeo = "54137342"
 

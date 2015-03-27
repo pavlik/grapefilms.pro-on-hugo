@@ -7,7 +7,6 @@ keywords = ""
 photo = "mimoza.jpg"
 production = "Grapefilms"
 shooting = "Grapefilms"
-tags = ["портфолио"]
 title = "Промо-ролик флористической мастерской «Мимоза»"
 vimeo = "19886106"
 

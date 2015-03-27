@@ -7,7 +7,6 @@ keywords = ""
 photo = "vau.jpg"
 production = "Grapefilms"
 shooting = "Grapefilms"
-tags = ["портфолио"]
 title = "Промо-ролик салона оптики «VAU»"
 vimeo = "71498792"
 

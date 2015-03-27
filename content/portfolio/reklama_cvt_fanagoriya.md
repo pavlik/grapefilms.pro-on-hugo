@@ -6,7 +6,6 @@ keywords = ""
 photo = "fanagoria.jpg"
 production = "Wineholidays"
 shooting = "Grapefilms"
-tags = ["портфолио"]
 title = "Рекламный ролик для центра винного туризма «Фанагория»"
 vimeo = "80058367"
 series = ["best"]

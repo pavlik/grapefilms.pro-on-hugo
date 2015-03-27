@@ -7,7 +7,6 @@ keywords = ""
 photo = "motocross.jpg"
 production = "Grapefilms"
 shooting = "Grapefilms"
-tags = ["портфолио"]
 title = "Мотокросс 2011, город-курорт Анапа"
 vimeo = "24556980"
 

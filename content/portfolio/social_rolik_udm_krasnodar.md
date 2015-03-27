@@ -7,7 +7,6 @@ keywords = ""
 photo = "graffiti.jpg"
 production = "Grapefilms"
 shooting = "Grapefilms"
-tags = ["портфолио"]
 title = "Социальный ролик для администрации г. Краснодара"
 vimeo = "112916135"
 

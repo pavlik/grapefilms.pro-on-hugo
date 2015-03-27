@@ -7,7 +7,6 @@ keywords = ""
 photo = "fanagoria_rj.jpg"
 production = "Grapefilms"
 shooting = "Grapefilms"
-tags = ["портфолио"]
 title = "Дегустация вин экспертом Робертом Джозефом"
 vimeo = "21010544"
 

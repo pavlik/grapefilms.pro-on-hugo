@@ -8,7 +8,6 @@ photo = "a_company.jpg"
 production = "Grapefilms"
 series = ["best"]
 shooting = ""
-tags = ["портфолио"]
 title = "Анимационный ролик для компании «Проект «А»"
 vimeo = "122730785"
 

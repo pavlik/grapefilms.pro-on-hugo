@@ -6,7 +6,6 @@ keywords = ""
 photo = "mtt.jpg"
 production = "Grapefilms"
 shooting = "Grapefilms"
-tags = ["портфолио", "проморолик"]
 title = "Промо ролик для морского терминала «Тамань»"
 vimeo = "103892241"
 series = ["best"]

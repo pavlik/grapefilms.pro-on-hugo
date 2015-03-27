@@ -7,7 +7,6 @@ keywords = ""
 photo = "ias.jpg"
 production = "Grapefilms"
 shooting = "Grapefilms"
-tags = ["портфолио"]
 title = "Информационный ролик о производстве соков «Сочная долина»"
 vimeo = "113073646"
 
