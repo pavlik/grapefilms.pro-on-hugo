@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Best on Grapefilms production</title>
-    <link>http://localhost:50081/series/best/</link>
+    <link>http://grapefilms.pro/series/best/</link>
     <description>Recent content in Best on Grapefilms production</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-RU</language>
     <lastBuildDate>Fri, 27 Mar 2015 11:27:55 +0300</lastBuildDate>
-    <atom:link href="http://localhost:50081/series/best/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://grapefilms.pro/series/best/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Анимационный ролик для компании «Проект «А»</title>
-      <link>http://localhost:50081/portfolio/rolik_acompany_novoros/</link>
+      <link>http://grapefilms.pro/portfolio/rolik_acompany_novoros/</link>
       <pubDate>Fri, 27 Mar 2015 11:27:55 +0300</pubDate>
       
-      <guid>http://localhost:50081/portfolio/rolik_acompany_novoros/</guid>
+      <guid>http://grapefilms.pro/portfolio/rolik_acompany_novoros/</guid>
       <description>&lt;p&gt;Проект &amp;laquo;А&amp;raquo;&amp;nbsp;&amp;mdash; компания полного бухгалтерского и&amp;nbsp;юридического сопровождения.
 Компания помогает вам экономить деньги на&amp;nbsp;бухгалтерии, юристе, кадровике, особенно на&amp;nbsp;этапе становления компании.&lt;/p&gt;
 
@@ -26,37 +26,37 @@
     
     <item>
       <title>Рекламный ролик для «Ривьера-клуб отель &amp; SPA»</title>
-      <link>http://localhost:50081/portfolio/videoreklama_riviera_anapa/</link>
+      <link>http://grapefilms.pro/portfolio/videoreklama_riviera_anapa/</link>
       <pubDate>Sun, 15 Jun 2014 13:47:16 +0300</pubDate>
       
-      <guid>http://localhost:50081/portfolio/videoreklama_riviera_anapa/</guid>
+      <guid>http://grapefilms.pro/portfolio/videoreklama_riviera_anapa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Промо ролик для морского терминала «Тамань»</title>
-      <link>http://localhost:50081/portfolio/promovideo_mtt/</link>
+      <link>http://grapefilms.pro/portfolio/promovideo_mtt/</link>
       <pubDate>Mon, 19 May 2014 10:07:56 +0300</pubDate>
       
-      <guid>http://localhost:50081/portfolio/promovideo_mtt/</guid>
+      <guid>http://grapefilms.pro/portfolio/promovideo_mtt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Рекламный ролик для центра винного туризма «Фанагория»</title>
-      <link>http://localhost:50081/portfolio/reklama_cvt_fanagoriya/</link>
+      <link>http://grapefilms.pro/portfolio/reklama_cvt_fanagoriya/</link>
       <pubDate>Fri, 01 Nov 2013 22:36:30 +0300</pubDate>
       
-      <guid>http://localhost:50081/portfolio/reklama_cvt_fanagoriya/</guid>
+      <guid>http://grapefilms.pro/portfolio/reklama_cvt_fanagoriya/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Промо-ролик отеля «Империал»</title>
-      <link>http://localhost:50081/portfolio/promorolik_abrau_imperial/</link>
+      <link>http://grapefilms.pro/portfolio/promorolik_abrau_imperial/</link>
       <pubDate>Fri, 29 Mar 2013 09:26:46 +0300</pubDate>
       
-      <guid>http://localhost:50081/portfolio/promorolik_abrau_imperial/</guid>
+      <guid>http://grapefilms.pro/portfolio/promorolik_abrau_imperial/</guid>
       <description></description>
     </item>
     
