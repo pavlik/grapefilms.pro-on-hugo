@@ -2,8 +2,8 @@
 backstage = []
 client = "Проект «А»"
 date = "2015-03-27T11:27:55+03:00"
-description = ""
-keywords = ""
+description = "Анимационный ролик для компании «Проект «А», г. Новороссийск"
+keywords = "анимация, 2D-графика, анимационный ролик, инфографика"
 photo = "a_company.jpg"
 production = "Grapefilms"
 series = ["best"]
