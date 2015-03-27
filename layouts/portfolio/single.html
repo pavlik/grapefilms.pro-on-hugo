@@ -120,8 +120,8 @@
       {{ $page := . }}
       {{ range .Params.backstage }}
         {{ $photo := . }}
-          <a class="fancybox" rel="gallery1" href="/images{{ $page.RelPermalink }}{{ $photo }}.jpg" title="">
-            <img src="/images{{ $page.RelPermalink }}thumb_{{ $photo }}.jpg" alt="" class="img-thumbnail" />
+          <a class="fancybox" rel="gallery1" href="/images{{ replace $page.RelPermalink ".html" "" }}/{{ $photo }}.jpg" title="">
+            <img src="/images{{ replace $page.RelPermalink ".html" "" }}/thumb_{{ $photo }}.jpg" alt="" class="img-thumbnail" />
           </a>
       {{ end }}
     </div>
