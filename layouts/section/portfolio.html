@@ -13,7 +13,7 @@
          <!-- open graph -->
         <meta property="og:type" content="article"/>
         <meta property="og:description" content=""/>
-        <meta property="og:title" content="{{ .Site.BaseUrl }}"/>
+        <meta property="og:title" content="Портфолио Grapefilms"/>
         <meta property="og:site_name" content="Продакшн студия Grapefilms"/>
         <meta property="og:image" content="" />
         <meta property="og:image:type" content="image/jpeg" />
@@ -24,7 +24,7 @@
         <meta property="article:published_time" content="{{ .Date.Format "01.02.2006" }}"/>
         <meta property="article:modified_time" content="{{ .Date.Format "01.02.2006" }}"/>
 
-        {{ range .Keywords }}<meta property="article:tag" content="{{ . }}">{{ end }}
+        {{ if .Keywords }}<meta property="article:tag" content="{{ .Keywords }}">{{ end }}
 
         <!--Twitter Cards-->
         <meta name="twitter:card" content="summary">
