@@ -1,0 +1,38 @@
+baseurl = "http://grapefilms.pro/"
+languageCode = "ru-RU"
+title = "Grapefilms production"
+
+[params]
+	description = "Видеопроизводство. Видеопродакшн. Съёмка корпоративных фильмов, рекламных роликов и музыкальных клипов."
+
+[taxonomies]
+   series = "series"
+   
+[[menu.main]]
+	name = "Главная"
+	url = "/"
+	weight = 20
+[[menu.main]]
+	name = "О нас"
+	url = "/about/"
+	weight = 30
+[[menu.main]]
+	name = "Портфолио"
+	url = "/portfolio/"
+	weight = 40
+[[menu.main]]
+	name = "Услуги"
+  	url = "/services/"
+  	weight = 50
+[[menu.main]]
+	name = "Отзывы"
+	url = "/mentions/"
+	weight = 60
+[[menu.main]]
+	name = "Блог"
+  	url = "/blog/"
+  	weight = 70
+[[menu.main]]
+	name = "Контакты"
+  	url = "/contacts/"
+  	weight = 80
