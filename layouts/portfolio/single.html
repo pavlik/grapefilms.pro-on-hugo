@@ -74,7 +74,7 @@
   </div>
   <div class="col-md-4">
     <!-- Инфоблок -->
-    <dl class="dl-horizontal project-info">
+    <dl class="dl-horizontal">
     {{ if .Params.project_info.client }} <dt>Клиент:</dt> <dd>{{ .Params.project_info.client }}</dd> {{ end }}
     {{ if .Params.project_info.production }} <dt>Производство:</dt> <dd>{{ .Params.project_info.production }}</dd> {{ end }}
     {{ if .Params.project_info.producer }} <dt>Продюсер:</dt> <dd>{{ .Params.project_info.producer }}</dd> {{ end }}
@@ -84,6 +84,7 @@
     {{ if .Params.project_info.editing }} <dt>Монтаж:</dt> <dd>{{ .Params.project_info.editing }}</dd> {{ end }}
     {{ if .Params.project_info.animation }} <dt>Анимация:</dt> <dd>{{ .Params.project_info.animation }}</dd> {{ end }}
     {{ if .Params.project_info.graphics }} <dt>Графика:</dt> <dd>{{ .Params.project_info.graphics }}</dd> {{ end }}
+    {{ if .Params.project_info.music }} <dt>Музыка:</dt> <dd>{{ .Params.project_info.music }}</dd> {{ end }}
     {{ if .Params.project_info.sound }} <dt>Саунд-дизайн:</dt> <dd>{{ .Params.project_info.sound }}</dd> {{ end }}
     {{ if .Params.project_info.voice }} <dt>Голос:</dt> <dd>{{ .Params.project_info.voice }}</dd> {{ end }}
     </dl>

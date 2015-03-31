@@ -20,6 +20,7 @@ series = []
     animation = ""
     graphics = ""
     sound = ""
+    music = ""
     voice = ""
     backstage = []
 
