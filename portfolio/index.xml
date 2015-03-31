@@ -6,8 +6,18 @@
     <description>Recent content in Portfolios on Grapefilms production</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-RU</language>
-    <lastBuildDate>Fri, 27 Mar 2015 11:27:55 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2015 14:04:46 +0300</lastBuildDate>
     <atom:link href="http://grapefilms.pro/portfolio.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Рекламный ролик соков «Сочная долина»</title>
+      <link>http://grapefilms.pro/portfolio/videoreklama_sochnaya_dolina.html</link>
+      <pubDate>Tue, 31 Mar 2015 14:04:46 +0300</pubDate>
+      
+      <guid>http://grapefilms.pro/portfolio/videoreklama_sochnaya_dolina.html</guid>
+      <description>&lt;p&gt;Перед нами стояла непростая задача: в сжатые сроки сделать ролик для рекламной кампании соков &amp;ldquo;Сочная Долина&amp;rdquo; на телевидении и в интернете. Специально для этого ролика была разработана 3D-графика, написана авторская музыка и сделан саунд-дизайн. С помощью графики мы показали особенность продукта - более короткую производственную цепочку. Такой сок не проходит стадии концентрирования и последующего восстановления, а сразу после отжима может быть разлит в потребительскую упаковку. Такая технология позволяет максимально сохранить вкус и пользу свежих фруктов&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Анимационный ролик для компании «Проект «А»</title>
@@ -140,15 +150,6 @@
       <guid>http://grapefilms.pro/portfolio/videoreport_degustation_fanagoriya_roberjoseph.html</guid>
       <description>&lt;p&gt;В конце 2010 нам выпала честь снимать дегустацию вин, произведенных на заводе «Фанагория». Дегустацию проводил известный специалист в мире вин, Роберт Джозеф.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Промо-ролик флористической мастерской «Мимоза»</title>
-      <link>http://grapefilms.pro/portfolio/promorolik_flowers_mimoza.html</link>
-      <pubDate>Sun, 13 Feb 2011 10:09:48 +0300</pubDate>
-      
-      <guid>http://grapefilms.pro/portfolio/promorolik_flowers_mimoza.html</guid>
-      <description></description>
     </item>
     
   </channel>

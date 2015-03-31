@@ -44,3 +44,7 @@ padding-bottom: 50px;
     height: 100%;
     text-indent: -9999px;
 }
+
+dl.project-info dt{
+	text-align: left;
+}
