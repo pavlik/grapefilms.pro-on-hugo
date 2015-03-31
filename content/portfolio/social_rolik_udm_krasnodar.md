@@ -1,13 +1,22 @@
 +++
-backstage = []
-client = "Комитет по делам молодежи, г. Краснодар"
 date = "2014-08-08T09:36:43+03:00"
-description = ""
-keywords = ""
-photo = "graffiti.jpg"
-production = "Grapefilms"
-shooting = "Grapefilms"
 title = "Социальный ролик для администрации г. Краснодара"
-vimeo = "112916135"
+keywords = ""
+description = ""
+
+[project_info]
+    client = "Комитет по делам молодежи, г. Краснодар"
+    photo = "graffiti.jpg"
+    vimeo = "112916135"
+    production = "Grapefilms"
+    producer = ""
+    scenario = ""
+    shooting = "Grapefilms"
+    editing = ""
+    animation = ""
+    graphics = ""
+    sound = ""
+    voice = ""
+    backstage = []
 
 +++

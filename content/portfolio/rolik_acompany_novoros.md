@@ -1,15 +1,25 @@
 +++
-backstage = []
-client = "Проект «А»"
 date = "2015-03-27T11:27:55+03:00"
-description = "Анимационный ролик для компании «Проект «А», г. Новороссийск"
-keywords = "анимация, 2D-графика, анимационный ролик, инфографика"
-photo = "a_company.jpg"
-production = "Grapefilms"
-series = ["best"]
-shooting = ""
 title = "Анимационный ролик для компании «Проект «А»"
-vimeo = "122730785"
+keywords = "анимация, 2D-графика, анимационный ролик, инфографика"
+description = "Анимационный ролик для компании «Проект «А», г. Новороссийск"
+
+series = ["best"]
+
+[project_info]
+    client = "Проект «А»"
+    photo = "a_company.jpg"
+    vimeo = "122730785"
+    production = "Grapefilms"
+    producer = ""
+    scenario = ""
+    shooting = ""
+    editing = ""
+    animation = ""
+    graphics = ""
+    sound = ""
+    voice = ""
+    backstage = []
 
 +++
 

@@ -69,14 +69,14 @@
  		    <div class="row">
             <div class="col-md-6">
               <a href="{{ .Permalink }}">
-                <img src="{{ .Site.BaseUrl }}images/portfolio/{{ .Params.photo }}" alt="" class="img-responsive">
+                <img src="{{ .Site.BaseUrl }}images/portfolio/{{ .Params.project_info.photo }}" alt="" class="img-responsive">
                 <h5>{{ .Title }}</h5>
               </a>
             </div>       
     {{ else }}
             <div class="col-md-6">
               <a href="{{ .Permalink }}">
-                <img src="{{ .Site.BaseUrl }}images/portfolio/{{ .Params.photo }}" alt="" class="img-responsive">
+                <img src="{{ .Site.BaseUrl }}images/portfolio/{{ .Params.project_info.photo }}" alt="" class="img-responsive">
                 <h5>{{ .Title }}</h5>
               </a>
             </div>  

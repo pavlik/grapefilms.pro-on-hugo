@@ -11,7 +11,7 @@ uglyurls = true
    
 [[menu.main]]
 	name = "Главная"
-	url = "/index.html"
+	url = "/"
 	weight = 20
 [[menu.main]]
 	name = "О нас"

@@ -1,14 +1,23 @@
 +++
-backstage = []
-client = "Фанагория"
 date = "2011-03-14T10:37:45+03:00"
-description = ""
-keywords = ""
-photo = "fanagoria_rj.jpg"
-production = "Grapefilms"
-shooting = "Grapefilms"
 title = "Дегустация вин экспертом Робертом Джозефом"
-vimeo = "21010544"
+keywords = ""
+description = ""
+
+[project_info]
+    client = "Фанагория"
+    photo = "fanagoria_rj.jpg"
+    vimeo = "21010544"
+    production = "Grapefilms"
+    producer = ""
+    scenario = ""
+    shooting = "Grapefilms"
+    editing = ""
+    animation = ""
+    graphics = ""
+    sound = ""
+    voice = ""
+    backstage = []
 
 +++
 

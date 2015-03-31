@@ -1,14 +1,23 @@
 +++
-backstage = []
-client = "Флористическая мастерская «Мимоза»"
 date = "2011-02-13T10:09:48+03:00"
-description = ""
-keywords = ""
-photo = "mimoza.jpg"
-production = "Grapefilms"
-shooting = "Grapefilms"
 title = "Промо-ролик флористической мастерской «Мимоза»"
-vimeo = "19886106"
+keywords = ""
+description = ""
+
+[project_info]
+    client = "Флористическая мастерская «Мимоза»"
+    photo = "mimoza.jpg"
+    vimeo = "19886106"
+    production = "Grapefilms"
+    producer = ""
+    scenario = ""
+    shooting = "Grapefilms"
+    editing = ""
+    animation = ""
+    graphics = ""
+    sound = ""
+    voice = ""
+    backstage = []
 
 +++
 

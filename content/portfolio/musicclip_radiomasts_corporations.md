@@ -1,13 +1,22 @@
 +++
-backstage = []
-client = "Группа Radio Masts"
 date = "2011-12-15T10:34:09+03:00"
-description = ""
-keywords = ""
-photo = "radiomasts_1.jpg"
-production = "Grapefilms"
-shooting = "Grapefilms"
 title = "Музыкальный клип «Corporation», группы Radio Masts"
-vimeo = "33719465"
+keywords = ""
+description = ""
+
+[project_info]
+    client = "Группа Radio Masts"
+    photo = "radiomasts_1.jpg"
+    vimeo = "33719465"
+    production = "Grapefilms"
+    producer = ""
+    scenario = ""
+    shooting = "Grapefilms"
+    editing = ""
+    animation = ""
+    graphics = ""
+    sound = ""
+    voice = ""
+    backstage = []
 
 +++

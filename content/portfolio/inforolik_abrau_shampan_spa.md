@@ -1,13 +1,21 @@
 +++
-backstage = []
-client = "Центр винного туризма «Абрау-Дюрсо», Отель «Империал»"
 date = "2013-10-01T08:52:26+03:00"
+title = "Информационно-имиджевый ролик рассказывающий о пользе Шампань СПА"
 description = ""
 keywords = ""
-photo = "spa.jpg"
-production = "Wineholidays, Grapefilms"
-shooting = "Grapefilms"
-title = "Информационно-имиджевый ролик рассказывающий о пользе Шампань СПА"
-vimeo = "75863707"
+
+[project_info]
+    client = "Центр винного туризма «Абрау-Дюрсо», Отель «Империал»"
+    photo = "spa.jpg"
+    vimeo = "75863707"
+    production = "Wineholidays, Grapefilms"
+    producer = ""
+    scenario = ""
+    shooting = "Grapefilms"
+    animation = ""
+    graphics = ""
+    sound = ""
+    voice = ""
+    backstage = []
 
 +++

@@ -16,7 +16,7 @@
         <meta property="og:description" content="{{ .Description }}"/>
         <meta property="og:title" content="{{ .Title }}"/>
         <meta property="og:site_name" content="Продакшн студия Grapefilms"/>
-        <meta property="og:image" content="{{ .Site.BaseUrl }}images/portfolio/{{ .Params.photo }}" />
+        <meta property="og:image" content="{{ .Site.BaseUrl }}images/portfolio/{{ .Params.project_info.photo }}" />
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:url" content="{{ .Permalink }}">
         <meta property="og:locale" content="ru_RU">
@@ -32,7 +32,7 @@
         <meta name="twitter:title" content="{{ .Title }}">
         <meta name="twitter:creator" content="@grapefilms">
         <meta name="twitter:description" content="{{ .Description }}">
-        <meta name="twitter:image:src" content="{{ .Site.BaseUrl }}images/portfolio/{{ .Params.photo }}">
+        <meta name="twitter:image:src" content="{{ .Site.BaseUrl }}images/portfolio/{{ .Params.project_info.photo }}">
         <meta name="twitter:domain" content="grapefilms.pro">
 
         <link rel="icon" href="{{ .Site.BaseUrl }}favicon.png" type="image/png">
@@ -69,32 +69,24 @@
   <div class="col-md-8">
     <!-- Видео -->
     <div class="embed-responsive embed-responsive-16by9">
-      <iframe src="https://player.vimeo.com/video/{{ .Params.vimeo }}?title=0&byline=0&portrait=0" class="embed-responsive-item" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <iframe src="https://player.vimeo.com/video/{{ .Params.project_info.vimeo }}?title=0&byline=0&portrait=0" class="embed-responsive-item" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
   </div>
   <div class="col-md-4">
     <!-- Инфоблок -->
-    {{ if .Params.client }}
-      <div><strong>Клиент:</strong> {{ .Params.client }}</div>
-    {{ end }}
-    {{ if .Params.production }}
-      <div><strong>Производство:</strong> {{ .Params.production }}</div>
-    {{ end }}
-    {{ if .Params.shooting }}
-      <div><strong>Съёмка:</strong> {{ .Params.shooting }}</div>
-    {{ end }}
-    {{ if .Params.animation }}
-      <div><strong>Анимация:</strong> {{ .Params.animation }}</div>
-    {{ end }}
-    {{ if .Params.graphics }}
-      <div><strong>Графика:</strong> {{ .Params.graphics }}</div>
-    {{ end }}
-    {{ if .Params.sound }}
-      <div><strong>Саунд-дизайн:</strong> {{ .Params.sound }}</div>
-    {{ end }}
-    {{ if .Params.voice }}
-      <div><strong>Голос:</strong> {{ .Params.voice }}</div>
-    {{ end }}
+    <dl class="dl-horizontal project-info">
+    {{ if .Params.project_info.client }} <dt>Клиент:</dt> <dd>{{ .Params.project_info.client }}</dd> {{ end }}
+    {{ if .Params.project_info.production }} <dt>Производство:</dt> <dd>{{ .Params.project_info.production }}</dd> {{ end }}
+    {{ if .Params.project_info.producer }} <dt>Продюсер:</dt> <dd>{{ .Params.project_info.producer }}</dd> {{ end }}
+    {{ if .Params.project_info.artdirector }} <dt>Арт-директор:</dt> <dd>{{ .Params.project_info.artdirector }}</dd> {{ end }}
+    {{ if .Params.project_info.scenario }} <dt>Сценарий:</dt> <dd> {{ .Params.project_info.scenario }}</dd> {{ end }}
+    {{ if .Params.project_info.shooting }} <dt>Съёмка:</dt> <dd>{{ .Params.project_info.shooting }}</dd> {{ end }}
+    {{ if .Params.project_info.editing }} <dt>Монтаж:</dt> <dd>{{ .Params.project_info.editing }}</dd> {{ end }}
+    {{ if .Params.project_info.animation }} <dt>Анимация:</dt> <dd>{{ .Params.project_info.animation }}</dd> {{ end }}
+    {{ if .Params.project_info.graphics }} <dt>Графика:</dt> <dd>{{ .Params.project_info.graphics }}</dd> {{ end }}
+    {{ if .Params.project_info.sound }} <dt>Саунд-дизайн:</dt> <dd>{{ .Params.project_info.sound }}</dd> {{ end }}
+    {{ if .Params.project_info.voice }} <dt>Голос:</dt> <dd>{{ .Params.project_info.voice }}</dd> {{ end }}
+    </dl>
   </div>
 </div>
 <div class="row">
@@ -114,11 +106,11 @@
 {{ end }}
 
 <!-- Backstage -->
-{{ if .Params.backstage }}
+{{ if .Params.project_info.backstage }}
   <div class="row hr">  
     <div class="col-md-12">
       {{ $page := . }}
-      {{ range .Params.backstage }}
+      {{ range .Params.project_info.backstage }}
         {{ $photo := . }}
           <a class="fancybox" rel="gallery1" href="/images{{ replace $page.RelPermalink ".html" "" }}/{{ $photo }}.jpg" title="">
             <img src="/images{{ replace $page.RelPermalink ".html" "" }}/thumb_{{ $photo }}.jpg" alt="" class="img-thumbnail" />
