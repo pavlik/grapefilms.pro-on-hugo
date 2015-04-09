@@ -7,8 +7,9 @@
         <meta name="author" content="village-geek.ru">
         <title>{{ with .Title }}{{ . }}{{ else }}{{ with .Site.title }}{{ . }}{{ end }}{{ end }}</title>
         <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}"/>
-        {{ range .Keywords }}<meta name="keywords" content="{{ . }}"/>{{ end }}
-        <meta name="robots" content="all"/>
+       
+        {{ if .Keywords }}<meta name="keywords" content="{{ delimit .Keywords ", " }}">
+        {{ else }}<meta name="keywords" content="{{ delimit .Site.Params.keywords ", " }}">{{ end }}
 
         <meta property="fb:admins" content="1741643988" />
          <!-- open graph -->
@@ -23,7 +24,10 @@
         <meta property="article:published_time" content="{{ .Date.Format "2006-01-02" }}"/>
         <meta property="article:modified_time" content="{{ .Date.Format "2006-01-02" }}"/>
 
-        {{ range .Keywords }}<meta property="article:tag" content="{{ . }}">{{ end }}
+        {{ if .Keywords }}{{ range .Keywords }}
+        <meta property="article:tag" content="{{ . }}">{{ end }}
+        {{ else }}{{ range .Site.Params.keywords }}
+        <meta property="article:tag" content="{{ . }}">{{ end }}{{ end }}
 
         <!--Twitter Cards-->
         <meta name="twitter:card" content="summary">
