@@ -1,8 +1,8 @@
 +++
 date = "2012-11-18T10:17:47+03:00"
-title = "Музыкальный клипп «Имею право», группы Radio-Masts"
-keywords = ""
-description = ""
+title = "Музыкальный клип «Имею право», группы Radio Masts"
+keywords = ["музыкальный клип"]
+description = "Музыкальный клип «Имею право» для группы Radio-Masts"
 
 [project_info]
     client = "Группа Radio-Masts"
