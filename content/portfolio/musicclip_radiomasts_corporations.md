@@ -4,6 +4,8 @@ title = "Музыкальный клип «Corporation», группы Radio Mas
 keywords = ["музыкальный клип"]
 description = "Музыкальный клип «Корпорации» для группы Radio Masts"
 
+client = "radiomasts"
+
 [project_info]
     client = "Группа Radio Masts"
     photo = "radiomasts_1.jpg"

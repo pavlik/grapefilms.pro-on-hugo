@@ -9,6 +9,7 @@ uglyurls = true
 
 [taxonomies]
    series = "series"
+   client = "client"
    
 [[menu.main]]
 	name = "Главная"

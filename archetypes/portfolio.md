@@ -1,11 +1,12 @@
 +++
 date = "2015-03-01T07:00:00+03:00"
 title = ""
-keywords = ""
+keywords = []
 description = ""
 
 tags = []
 series = []
+client = ""
 
 [project_info]
     client = ""

@@ -6,6 +6,8 @@ series = ["best"]
 tags = []
 title = "Рекламный ролик соков «Сочная долина»"
 
+client = "ias"
+
 [project_info]
   animation = ""
   backstage = []

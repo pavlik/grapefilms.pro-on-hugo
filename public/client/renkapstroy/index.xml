@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Renkapstroy on Grapefilms production</title>
+    <link>http://grapefilms.pro/client/renkapstroy.html</link>
+    <description>Recent content in Renkapstroy on Grapefilms production</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-RU</language>
+    <lastBuildDate>Fri, 23 Nov 2012 10:12:30 +0300</lastBuildDate>
+    <atom:link href="http://grapefilms.pro/client/renkapstroy.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Корпоративный фильм компании «РенКапСтрой», г. Краснодар</title>
+      <link>http://grapefilms.pro/portfolio/korporativniy_film_renkapstroy_krasnodar.html</link>
+      <pubDate>Fri, 23 Nov 2012 10:12:30 +0300</pubDate>
+      
+      <guid>http://grapefilms.pro/portfolio/korporativniy_film_renkapstroy_krasnodar.html</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

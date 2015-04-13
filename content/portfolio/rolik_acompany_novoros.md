@@ -5,6 +5,7 @@ keywords = ["анимация", "2D-графика", "анимационный �
 description = "Анимационный ролик для компании «Проект «А», г. Новороссийск"
 
 series = ["best"]
+client = "proekt_a"
 
 [project_info]
     client = "Проект «А»"

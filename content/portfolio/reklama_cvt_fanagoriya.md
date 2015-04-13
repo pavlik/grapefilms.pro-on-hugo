@@ -5,6 +5,7 @@ keywords = ["рекламный ролик", "фанагория", "цвт", "ц
 description = "Рекламный ролик для центра винного туризма «Фанагория» (Тамань)"
 
 series = ["best"]
+client = "fanagoriya"
 
 [project_info]
     client = "Фанагория"

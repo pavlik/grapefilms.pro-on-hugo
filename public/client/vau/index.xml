@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vau on Grapefilms production</title>
+    <link>http://grapefilms.pro/client/vau.html</link>
+    <description>Recent content in Vau on Grapefilms production</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-RU</language>
+    <lastBuildDate>Thu, 01 Aug 2013 09:39:26 +0300</lastBuildDate>
+    <atom:link href="http://grapefilms.pro/client/vau.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Промо-ролик салона оптики «VAU»</title>
+      <link>http://grapefilms.pro/portfolio/promorolik_optika_vau.html</link>
+      <pubDate>Thu, 01 Aug 2013 09:39:26 +0300</pubDate>
+      
+      <guid>http://grapefilms.pro/portfolio/promorolik_optika_vau.html</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
