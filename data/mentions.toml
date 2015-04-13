@@ -4,6 +4,8 @@ text = """
          """
 author = "Сергей, Проект &laquo;А&raquo;"
 logo = "proekt_a.png"
+work_title = "Анимационный ролик для компании «Проект «А»"
+work_url = "/portfolio/rolik_acompany_novoros.html"
 
 [[mention]]
 text = """
@@ -13,6 +15,8 @@ text = """
          """
 author = "С&nbsp;уважением, Виктория Перминова, пресс-секретарь компании ООО &laquo;Морской терминал &laquo;Тамань&raquo;"
 logo = "mtt.png"
+work_title = "Промо-ролик для морского терминала «Тамань»"
+work_url = "/portfolio/promovideo_mtt.html"
 
 [[mention]]
 text = """
@@ -24,6 +28,8 @@ author = """
            Начальник отдела маркетинга Центра Винного Туризма Абрау-Дюрсо.
            """
 logo = "abrau_cvt.png"
+work_title = "Промо-ролик отеля «Империал»"
+work_url = "/portfolio/promorolik_abrau_imperial.html"
 
 [[mention]]
 text = """
@@ -38,6 +44,8 @@ author = """
            PR-менеджер ООО &laquo;ИНТЕРАГРОСИСТЕМЫ&raquo;
            """
 logo = "ias.png"
+work_title = "Рекламный ролик соков «Сочная долина»"
+work_url = "/portfolio/videoreklama_sochnaya_dolina.html"
 
 [[mention]]
 text = """
@@ -46,6 +54,8 @@ text = """
          """
 author = "Алексей Ingwaz Белый."
 logo = "radiomasts.png"
+work_title = "Музыкальный клип «Имею право», группы Radio Masts"
+work_url = "/portfolio/musicclip_radiomasts_imeyu_pravo.html"
 
 [[mention]]
 text = """
@@ -54,3 +64,5 @@ text = """
          """
 author = "Михаил Яценко, цветочная мастерская &laquo;Мимоза&raquo;"
 logo = "mimoza.png"
+work_title = "Промо-ролик флористической мастерской «Мимоза»"
+work_url = "/portfolio/promorolik_flowers_mimoza.html"

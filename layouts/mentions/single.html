@@ -8,6 +8,7 @@
 </div>
 
 {{ range $.Site.Data.mentions.mention }}
+{{ $item := . }}
 <div class="row">
     <div class="col-md-12">
 			<div class="media">
@@ -15,7 +16,9 @@
 			      <img class="media-object" src="{{ $.Site.BaseUrl }}images/clients/{{ .logo }}" alt="">
 			  </div>
 			  <div class="media-body">
-			    <!-- <h4 class="media-heading">Company</h4> -->
+			  {{ if .work_url }}
+			    <h4 class="media-heading"><a href='{{ .work_url }}'>{{ .work_title | safeHtml }}</a></h4>
+			  {{ end }}
 			    {{ .text | safeHtml }}
 				<p class="text-success"><em>{{ .author | safeHtml }}</em></p>
 			  </div>
