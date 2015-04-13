@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Radiomasts on Grapefilms production</title>
+    <link>http://grapefilms.pro/client/radiomasts.html</link>
+    <description>Recent content in Radiomasts on Grapefilms production</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-RU</language>
+    <lastBuildDate>Sun, 18 Nov 2012 10:17:47 +0300</lastBuildDate>
+    <atom:link href="http://grapefilms.pro/client/radiomasts.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Музыкальный клип «Имею право», группы Radio Masts</title>
+      <link>http://grapefilms.pro/portfolio/musicclip_radiomasts_imeyu_pravo.html</link>
+      <pubDate>Sun, 18 Nov 2012 10:17:47 +0300</pubDate>
+      
+      <guid>http://grapefilms.pro/portfolio/musicclip_radiomasts_imeyu_pravo.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Музыкальный клип «Corporation», группы Radio Masts</title>
+      <link>http://grapefilms.pro/portfolio/musicclip_radiomasts_corporations.html</link>
+      <pubDate>Thu, 15 Dec 2011 10:34:09 +0300</pubDate>
+      
+      <guid>http://grapefilms.pro/portfolio/musicclip_radiomasts_corporations.html</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

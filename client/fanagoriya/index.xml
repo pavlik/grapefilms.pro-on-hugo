@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fanagoriya on Grapefilms production</title>
+    <link>http://grapefilms.pro/client/fanagoriya.html</link>
+    <description>Recent content in Fanagoriya on Grapefilms production</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-RU</language>
+    <lastBuildDate>Fri, 01 Nov 2013 22:36:30 +0300</lastBuildDate>
+    <atom:link href="http://grapefilms.pro/client/fanagoriya.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Рекламный ролик для центра винного туризма «Фанагория»</title>
+      <link>http://grapefilms.pro/portfolio/reklama_cvt_fanagoriya.html</link>
+      <pubDate>Fri, 01 Nov 2013 22:36:30 +0300</pubDate>
+      
+      <guid>http://grapefilms.pro/portfolio/reklama_cvt_fanagoriya.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Дегустация вин экспертом Робертом Джозефом на винзаводе Фанагория</title>
+      <link>http://grapefilms.pro/portfolio/videoreport_degustation_fanagoriya_roberjoseph.html</link>
+      <pubDate>Mon, 14 Mar 2011 10:37:45 +0300</pubDate>
+      
+      <guid>http://grapefilms.pro/portfolio/videoreport_degustation_fanagoriya_roberjoseph.html</guid>
+      <description>&lt;p&gt;В конце 2010 нам выпала честь снимать дегустацию вин, произведенных на заводе «Фанагория». Дегустацию проводил известный специалист в мире вин, Роберт Джозеф.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
