@@ -5,16 +5,17 @@ keywords = ["промо-ролик", "рекламный ролик", "флор�
 description = "Рекламный ролик для флористической мастерской «Мимоза» в г. Анапа"
 
 client = "mimoza"
+tags = ["blog"]
 
 [project_info]
     client = "Флористическая мастерская «Мимоза»"
     photo = "mimoza.jpg"
     vimeo = "19886106"
     production = "Grapefilms"
-    producer = ""
+    producer = "Павел Павленко"
     scenario = ""
-    shooting = "Grapefilms"
-    editing = ""
+    shooting = "Николай Сивцев"
+    editing = "Николай Сивцев"
     animation = ""
     graphics = ""
     sound = ""

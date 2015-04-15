@@ -6,6 +6,7 @@ description = "Рекламный ролик для центра винного 
 
 series = ["best"]
 client = "fanagoria"
+tags = ["blog"]
 
 [project_info]
     client = "Фанагория"
@@ -14,12 +15,14 @@ client = "fanagoria"
     production = "Wineholidays"
     producer = ""
     scenario = ""
-    shooting = "Grapefilms"
+    shooting = "Николай Сивцев (Grapefilms)"
     editing = ""
     animation = ""
     graphics = ""
     sound = ""
-    voice = ""
+    voice = "Юрий Деркач"
+    music = "Константин Чубаков"
+    actors = "Регина Мищенко, Александр Алексанин"
     backstage = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13"]
 
 +++

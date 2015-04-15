@@ -5,16 +5,17 @@ keywords = ["музыкальный клип"]
 description = "Музыкальный клип «Имею право» для группы Radio-Masts"
 
 client = "radiomasts"
+tags = ["blog"]
 
 [project_info]
     client = "Группа Radio-Masts"
     photo = "radiomasts_2.jpg"
     vimeo = "53797043"
     production = "Grapefilms"
-    producer = ""
-    scenario = ""
-    shooting = "Grapefilms"
-    editing = ""
+    producer = "Павел Павленко"
+    scenario = "Николай Сивцев"
+    shooting = "Николай Сивцев"
+    editing = "Николай Сивцев"
     animation = ""
     graphics = ""
     sound = ""

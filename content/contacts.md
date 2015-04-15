@@ -17,3 +17,8 @@ description = "Контактная информация видеостудии 
 
 **Telegram messenger:**
 <br/>[@grapefilms](http://telegram.me/grapefilms)
+
+**Социальные сети**
+<br/>[Facebook](https://www.facebook.com/grapefilms)
+<br/>[Вконтакте](https://vk.com/grapefilmspro)
+<br/>[Instagram](https://instagram.com/grapefilms/)

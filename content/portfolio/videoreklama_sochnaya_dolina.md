@@ -2,11 +2,11 @@
 date = "2015-03-31T14:04:46+03:00"
 description = "Телевизионный рекламный ролик соков «Сочная долина»"
 keywords = ["рекламный ролик", "соки", "сочная долина"]
-series = ["best"]
-tags = []
 title = "Рекламный ролик соков «Сочная долина»"
 
+series = ["best"]
 client = "ias"
+tags = ["blog"]
 
 [project_info]
   animation = ""

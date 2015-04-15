@@ -5,16 +5,17 @@ keywords = ["видеоотчет", "видео отчет", "Роберт Дж�
 description = "Видеоотчет о дегустации вин экспертом Робертом Джозефом"
 
 client = "fanagoria"
+tags = ["blog"]
 
 [project_info]
     client = "Фанагория"
     photo = "fanagoria_rj.jpg"
     vimeo = "21010544"
     production = "Grapefilms"
-    producer = ""
-    scenario = ""
-    shooting = "Grapefilms"
-    editing = ""
+    producer = "Игорь Улько"
+    scenario = "Павел Павленко, Николай Сивцев"
+    shooting = "Павел Павленко, Николай Сивцев"
+    editing = "Павел Павленко, Николай Сивцев"
     animation = ""
     graphics = ""
     sound = ""

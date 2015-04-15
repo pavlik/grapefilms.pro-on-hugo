@@ -5,18 +5,19 @@ keywords = ["видеоотчет", " анапа", "мотокросс", "вид
 description = "Видеоотчет о соревнованиях по Мотокроссу прошедших в 2011г. в Анапе"
 
 client = "motocross"
+tags = ["blog"]
 
 [project_info]
     client = ""
     photo = "motocross.jpg"
     vimeo = "24556980"
     production = "Grapefilms"
-    producer = ""
+    producer = "Павел Павленко"
     scenario = ""
-    shooting = "Grapefilms"
-    editing = ""
+    shooting = "Павел Павленко, Николай Сивцев"
+    editing = "Павел Павленко, Николай Сивцев"
     animation = ""
-    graphics = ""
+    graphics = "Николай Сивцев"
     sound = ""
     voice = ""
     backstage = ["1", "2", "3", "4", "5", "6"]

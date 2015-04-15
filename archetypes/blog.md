@@ -6,6 +6,6 @@ keywords = ""
 description = ""
 author = ""
 photo = ""
-tags = []
+tags = ["blog"]
 
 +++

@@ -5,16 +5,17 @@ keywords = ["музыкальный клип"]
 description = "Музыкальный клип «Корпорации» для группы Radio Masts"
 
 client = "radiomasts"
+tags = ["blog"]
 
 [project_info]
     client = "Группа Radio Masts"
     photo = "radiomasts_1.jpg"
     vimeo = "33719465"
     production = "Grapefilms"
-    producer = ""
-    scenario = ""
-    shooting = "Grapefilms"
-    editing = ""
+    producer = "Павел Павленко"
+    scenario = "Николай Сивцев"
+    shooting = "Николай Сивцев"
+    editing = "Николай Сивцев"
     animation = ""
     graphics = ""
     sound = ""

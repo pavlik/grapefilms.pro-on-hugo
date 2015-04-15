@@ -62,10 +62,10 @@
 <div class="row">
     <div class="col-md-12">
       <ul class="posts list-unstyled">
-          {{ range .Data.Pages }}
+          {{ range $k, $v := .Site.Taxonomies.tags.blog }}
           <li>
-            <p class="lead">{{ .Date.Format  "02.01.2006" }} <a href="{{ .Permalink }}">{{ .Title }}</a></p>
-            {{ .Summary }}       
+            <h4>{{ .Page.Date.Format  "02.01.2006" }}&nbsp;&nbsp;<a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></h4>
+            <!-- {{ .Page.Summary }}   -->     
           </li>
           {{ end }}
       </ul>

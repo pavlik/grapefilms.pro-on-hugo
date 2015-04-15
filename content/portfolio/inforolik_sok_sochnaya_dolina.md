@@ -5,19 +5,21 @@ keywords = ["информационный ролик", "соки", "сочная
 description = "Ролик рассказывает о процессе производства соков прямого отжима «Сочная долина»"
 
 client = "ias"
+tags = ["blog"]
 
 [project_info]
     client = "Интерагросистемы"
     photo = "ias.jpg"
     vimeo = "113073646"
     production = "Grapefilms"
-    producer = ""
-    scenario = "" 
-    shooting = "Grapefilms"
+    producer = "Павел Павленко"
+    scenario = "Павел Павленко" 
+    shooting = "Сергей Цыганко"
+    editing = "Николай Сивцев"
     animation = ""
     graphics = ""
-    sound = ""
-    voice = ""
+    sound = "Семен Хомченко"
+    voice = "Антон Виноградов"
     backstage = []
 
 +++

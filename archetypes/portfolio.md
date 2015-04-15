@@ -4,7 +4,7 @@ title = ""
 keywords = []
 description = ""
 
-tags = []
+tags = ["blog"]
 series = []
 client = ""
 
@@ -23,6 +23,7 @@ client = ""
     sound = ""
     music = ""
     voice = ""
+    actors = ""
     backstage = []
 
 

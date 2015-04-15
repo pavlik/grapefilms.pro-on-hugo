@@ -5,20 +5,22 @@ keywords = ["промо-ролик", "рекламный ролик", "анап�
 description = "Рекламный ролик салона оптики «VAU» в г. Анапа"
 
 client = "vau"
+tags = ["blog"]
 
 [project_info]
     client = "Салон оптики «VAU»"
     photo = "vau.jpg"
     vimeo = "71498792"
     production = "Grapefilms"
-    producer = ""
-    scenario = ""    
-    shooting = "Grapefilms"
-    editing = ""
+    producer = "Павел Павленко"
+    scenario = "Николай Сивцев"    
+    shooting = "Николай Сивцев"
+    editing = "Николай Сивцев"
     animation = ""
     graphics = ""
     sound = ""
     voice = ""
+    actors = "Ксения Ротенко"
     backstage = []
 
 +++

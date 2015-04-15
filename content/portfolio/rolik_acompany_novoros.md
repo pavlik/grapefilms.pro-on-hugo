@@ -6,6 +6,7 @@ description = "Анимационный ролик для компании «П�
 
 series = ["best"]
 client = "proekt_a"
+tags = ["blog"]
 
 [project_info]
     client = "Проект «А»"

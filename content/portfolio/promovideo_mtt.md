@@ -6,20 +6,21 @@ description = "Промо-ролик для морского терминала 
 
 series = ["best"]
 client = "mtt"
+tags = ["blog"]
 
 [project_info]
     client = "ООО «Морской терминал Тамань»"
     photo = "mtt.jpg"
     vimeo = "103892241"
     production = "Grapefilms"
-    producer = ""
-    scenario = ""
-    shooting = "Grapefilms"
-    editing = ""
+    producer = "Павел Павленко"
+    scenario = "Николай Сивцев"
+    shooting = "Николай Сивцев, Павел Павленко"
+    editing = "Николай Сивцев"
     animation = ""
     graphics = ""
-    sound = ""
-    voice = ""
+    sound = "Семен Хомченко"
+    voice = "Валерий Соловьев"
     backstage = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
 +++

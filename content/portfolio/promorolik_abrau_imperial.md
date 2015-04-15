@@ -6,18 +6,19 @@ description = "Промо-ролик для отеля «Империал» в �
 
 series = ["best"]
 client = "abrau"
+tags = ["blog"]
 
 [project_info]
     client = "Центр винного туризма «Абрау-Дюрсо»"
     photo = "imperial.jpg"
     vimeo = "62927949"
     production = "Wineholidays, Grapefilms"
-    producer = ""
-    scenario = ""    
+    producer = "Дмитрий Терентьев"
+    scenario = "Дмитрий Терентьев"    
     shooting = "Grapefilms"
-    editing = ""
-    animation = ""
-    graphics = ""
+    editing = "Grapefilms"
+    animation = "Grapefilms"
+    graphics = "Grapefilms"
     sound = ""
     voice = ""
     backstage = ["1", "2", "3", "4", "5", "6"]
