@@ -134,8 +134,10 @@
     {{ if eq $key $cur_client }}      
         {{ if gt (len $taxonomy.Pages) 1 }}
         <div class="row hr"> 
-          <h4>Другие работы для <em>{{ $page.Params.project_info.client }}</em></h4>
-
+          <div class="col-md-12">
+            <h4>Другие работы для <em>{{ $page.Params.project_info.client }}</em></h4>
+          </div>
+        </div>
           {{ $len := sub (len $taxonomy.Pages) 2 }}
           {{ range $index, $el := where $taxonomy.Pages "Params.project_info.vimeo" "!=" $page.Params.project_info.vimeo }}
 
