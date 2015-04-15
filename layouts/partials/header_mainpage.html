@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="village-geek.ru">
+        <title>{{ with .Title }}{{ . }}{{ else }}{{ with .Site.title }}{{ . }}{{ end }}{{ end }}</title>
+        <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}"/>
+        
+        {{ if .Keywords }}<meta name="keywords" content="{{ delimit .Keywords ", " }}">
+        {{ else }}<meta name="keywords" content="{{ delimit .Site.Params.keywords ", " }}">{{ end }}
+
+        <meta name="robots" content="all"/>
+        
+        <!--Twitter Cards-->
+        <meta name="twitter:card" content="summary">
+        <!--<meta name="twitter:card" content="summary_large_image">-->
+        <meta name="twitter:site" content="@grapefilms">
+        <meta name="twitter:title" content="{{ .Title }}">
+        <meta name="twitter:creator" content="@grapefilms">
+        <meta name="twitter:description" content="{{ .Description }}">
+        <meta name="twitter:domain" content="grapefilms.pro">
+
+        <link rel="icon" href="{{ .Site.BaseUrl }}favicon.png" type="image/png">
+
+        <link rel="canonical" href="{{ .Permalink }}">
+        <link href="/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />
+        {{ partial "css.html" . }}
+    </head>
+
+    <body>
+        <div class="container">
+
+            <div class="page-header">
+                <div class="row vertical-align">
+                    <div class="col-md-4">
+                        <a href="{{ .Site.BaseUrl }}"><img src="/images/other/logo.png" class="img-responsive" alt="Продакшн студия Grapefilms"></a>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="lead text-right">Корпоративные фильмы. Видеореклама. Музыкальные клипы</p>
+                        {{ partial "menu.html" . }}
+
+                    </div>
+                </div>
+            </div>
