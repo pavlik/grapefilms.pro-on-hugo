@@ -1,18 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html prefix='og: http://ogp.me/ns#'>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="village-geek.ru">
-        <title>{{ with .Title }}{{ . }}{{ else }}{{ with .Site.title }}{{ . }}{{ end }}{{ end }}</title>
+        <title>{{ with .Title }}{{ . }}{{ else }}{{ with .Site.Title }}{{ . }}{{ end }}{{ end }}</title>
         <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}"/>
         
         {{ if .Keywords }}<meta name="keywords" content="{{ delimit .Keywords ", " }}">
         {{ else }}<meta name="keywords" content="{{ delimit .Site.Params.keywords ", " }}">{{ end }}
 
         <meta name="robots" content="all"/>
-        
+
+        <!-- Open Graph -->
+        <meta property="og:title" content="Продакшн студия Grapefilms" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="{{ .Permalink }}" />
+        <meta property="og:image" content="{{ .Site.BaseUrl }}images/other/gf_mainpage_logo.png" />
+        <meta property="og:description" content="{{ .Site.Params.description }}" />
+        <meta property="og:site_name" content="Grapefilms.pro" />
+
         <!--Twitter Cards-->
         <meta name="twitter:card" content="summary">
         <!--<meta name="twitter:card" content="summary_large_image">-->
