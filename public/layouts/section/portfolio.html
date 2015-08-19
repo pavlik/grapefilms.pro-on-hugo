@@ -13,7 +13,7 @@
          <!-- open graph -->
         <meta property="og:type" content="article"/>
         <meta property="og:description" content=""/>
-        <meta property="og:title" content="{{ .Site.BaseUrl }}"/>
+        <meta property="og:title" content="{{ .Site.BaseURL }}"/>
         <meta property="og:site_name" content="Продакшн студия Grapefilms"/>
         <meta property="og:image" content="" />
         <meta property="og:image:type" content="image/jpeg" />
@@ -47,7 +47,7 @@
             <div class="page-header">
                 <div class="row vertical-align">
                     <div class="col-md-4">
-                        <a href="{{ .Site.BaseUrl }}"><img src="/images/other/logo.png" class="img-responsive" alt="Продакшн студия Grapefilms"></a>
+                        <a href="{{ .Site.BaseURL }}"><img src="/images/other/logo.png" class="img-responsive" alt="Продакшн студия Grapefilms"></a>
                     </div>
                     <div class="col-md-8">
                         <p class="lead text-right">Корпоративные фильмы. Видеореклама. Музыкальные клипы</p>
@@ -74,14 +74,14 @@
  		    <div class="row">
             <div class="col-md-6">
               <a href="{{ .Permalink }}">
-                <img src="{{ .Site.BaseUrl }}images/portfolio/{{ .Params.photo }}" alt="" class="img-responsive">
+                <img src="{{ .Site.BaseURL }}images/portfolio/{{ .Params.photo }}" alt="" class="img-responsive">
                 <h5>{{ .Title }}</h5>
               </a>
             </div>       
     {{ else }}
             <div class="col-md-6">
               <a href="{{ .Permalink }}">
-                <img src="{{ .Site.BaseUrl }}images/portfolio/{{ .Params.photo }}" alt="" class="img-responsive">
+                <img src="{{ .Site.BaseURL }}images/portfolio/{{ .Params.photo }}" alt="" class="img-responsive">
                 <h5>{{ .Title }}</h5>
               </a>
             </div>  

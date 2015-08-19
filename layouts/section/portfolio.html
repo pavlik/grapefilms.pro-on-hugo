@@ -27,7 +27,7 @@
         <meta name="twitter:creator" content="@grapefilms">
         <meta name="twitter:domain" content="grapefilms.pro">
 
-        <link rel="icon" href="{{ .Site.BaseUrl }}favicon.png" type="image/png">
+        <link rel="icon" href="{{ .Site.BaseURL }}favicon.png" type="image/png">
 
         <link rel="canonical" href="{{ .Permalink }}">
         <link href="/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />
@@ -40,7 +40,7 @@
             <div class="page-header">
                 <div class="row vertical-align">
                     <div class="col-md-4">
-                        <a href="{{ .Site.BaseUrl }}"><img src="/images/other/gf_logo.svg" class="img-responsive" alt="Продакшн студия Grapefilms"></a>
+                        <a href="{{ .Site.BaseURL }}"><img src="/images/other/gf_logo.svg" class="img-responsive" alt="Продакшн студия Grapefilms"></a>
                     </div>
                     <div class="col-md-8">
                         <p class="lead text-right">Корпоративные фильмы. Видеореклама. Музыкальные клипы</p>
@@ -67,14 +67,14 @@
  		    <div class="row">
             <div class="col-md-6">
               <a href="{{ .Permalink }}">
-                <img src="{{ .Site.BaseUrl }}images/portfolio/{{ .Params.project_info.photo }}" alt="" class="img-responsive">
+                <img src="{{ .Site.BaseURL }}images/portfolio/{{ .Params.project_info.photo }}" alt="" class="img-responsive">
                 <h5>{{ .Title }}</h5>
               </a>
             </div>       
     {{ else }}
             <div class="col-md-6">
               <a href="{{ .Permalink }}">
-                <img src="{{ .Site.BaseUrl }}images/portfolio/{{ .Params.project_info.photo }}" alt="" class="img-responsive">
+                <img src="{{ .Site.BaseURL }}images/portfolio/{{ .Params.project_info.photo }}" alt="" class="img-responsive">
                 <h5>{{ .Title }}</h5>
               </a>
             </div>  

@@ -12,12 +12,12 @@
     <div class="col-md-12">
 			<div class="media">
 			  <div class="media-left">
-			      <img class="media-object" src="{{ $.Site.BaseUrl }}images/clients/{{ .logo }}" alt="">
+			      <img class="media-object" src="{{ $.Site.BaseURL }}images/clients/{{ .logo }}" alt="">
 			  </div>
 			  <div class="media-body">
 			    <!-- <h4 class="media-heading">Company</h4> -->
-			    {{ .text | safeHtml }}
-				<p class="text-success"><em>{{ .author | safeHtml }}</em></p>
+			    {{ .text |  }}
+				<p class="text-success"><em>{{ .author |  }}</em></p>
 			  </div>
 			</div>
     </div>

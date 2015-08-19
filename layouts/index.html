@@ -4,7 +4,7 @@
 	<div class="col-md-12">
 	  <div class="fotorama" data-fit="contain" data-width="100%" data-autoplay="true">
 	  	{{ range $k, $v := .Site.Taxonomies.series.best }}
-	  		<div data-img="{{ $.Site.BaseUrl }}images/portfolio/big/{{ .Page.Params.project_info.photo }}"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></div>
+	  		<div data-img="{{ $.Site.BaseURL }}images/portfolio/big/{{ .Page.Params.project_info.photo }}"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></div>
     	{{ end }}
 	  </div>
 	</div>
@@ -32,8 +32,8 @@
 <div class="col-md-6">
 	<p>Добро пожаловать на сайт <a href='{{ relref . "about.md" }}'>продакшн студии Grapefilms</a>.</p>
 	<p>Если вы здесь, значит интересуетесь съёмкой корпоративного или рекламного ролика.<br/> 
-	Оцените наш профессиональный уровень посмотрев <a href='{{ $.Site.BaseUrl }}portfolio.html'>работы в портфолио</a>.<br/>
-	Узнайте <a href='{{ relref . "skolko_stoit_snyat_reklamniy_rolik.md" }}'>сколько стоит снять рекламный ролик</a> или почитайте наш <a href='{{ $.Site.BaseUrl }}blog.html'>блог</a>.</p>
+	Оцените наш профессиональный уровень посмотрев <a href='{{ $.Site.BaseURL }}portfolio.html'>работы в портфолио</a>.<br/>
+	Узнайте <a href='{{ relref . "skolko_stoit_snyat_reklamniy_rolik.md" }}'>сколько стоит снять рекламный ролик</a> или почитайте наш <a href='{{ $.Site.BaseURL }}blog.html'>блог</a>.</p>
 
 </div>
     <div class="col-md-6">

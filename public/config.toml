@@ -1,4 +1,4 @@
-baseurl = "http://grapefilms.pro/"
+BaseURL = "http://grapefilms.pro/"
 languageCode = "ru-RU"
 title = "Grapefilms production"
 

@@ -11,7 +11,7 @@ uglyurls = true
    series = "series"
    client = "client"
    tags = "tags"
-   
+
 [[menu.main]]
 	name = "Главная"
 	url = "/"
