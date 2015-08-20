@@ -17,10 +17,10 @@
 			  </div>
 			  <div class="media-body">
 			  {{ if .work_url }}
-			    <h4 class="media-heading"><a href='{{ .work_url }}'>{{ .work_title |  }}</a></h4>
+			    <h4 class="media-heading"><a href='{{ .work_url }}'>{{ .work_title | safeHTML }}</a></h4>
 			  {{ end }}
-			    {{ .text |  }}
-				<p class="text-success"><em>{{ .author |  }}</em></p>
+			    {{ .text | safeHTML  }}
+				<p class="text-success"><em>{{ .author | safeHTML }}</em></p>
 			  </div>
 			</div>
     </div>
