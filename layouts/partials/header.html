@@ -7,7 +7,7 @@
         <meta name="author" content="village-geek.ru">
         <title>{{ with .Title }}{{ . }}{{ else }}{{ with .Site.Title }}{{ . }}{{ end }}{{ end }}</title>
         <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}"/>
-        
+
         {{ if .Keywords }}<meta name="keywords" content="{{ delimit .Keywords ", " }}">
         {{ else }}<meta name="keywords" content="{{ delimit .Site.Params.keywords ", " }}">{{ end }}
 
@@ -27,7 +27,7 @@
         <meta property="article:tag" content="{{ . }}">{{ end }}
         {{ else }}{{ range .Site.Params.keywords }}
         <meta property="article:tag" content="{{ . }}">{{ end }}{{ end }}
-        
+
         <!--Twitter Cards-->
         <meta name="twitter:card" content="summary">
         <!--<meta name="twitter:card" content="summary_large_image">-->
@@ -48,14 +48,14 @@
         <div class="container">
 
             <div class="page-header">
-                <div class="row vertical-align">
-                    <div class="col-md-4">
-                        <a href="{{ .Site.BaseURL }}"><img src="/images/other/gf_logo.svg" class="img-responsive" alt="Продакшн студия Grapefilms"></a>
-                    </div>
-                    <div class="col-md-8">
-                        <p class="lead text-right">Корпоративные фильмы. Видеореклама. Музыкальные клипы</p>
-                        {{ partial "menu.html" . }}
+              <div class="row">
+                  <div class="logo col-md-4">
+                      <img src="/images/other/gf_logo.svg" class="img-responsive" alt="Продакшн студия Grapefilms">
+                  </div>
+                  <div class="col-md-8 vertical-align">
+                      <p class="logo-text lead">Корпоративные фильмы. Видеореклама. Музыкальные клипы</p>
+                      {{ partial "menu.html" . }}
 
-                    </div>
-                </div>
+                  </div>
+              </div>
             </div>

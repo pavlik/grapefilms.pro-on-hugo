@@ -38,16 +38,16 @@
         <div class="container">
 
             <div class="page-header">
-                <div class="row vertical-align">
-                    <div class="col-md-4">
-                        <a href="{{ .Site.BaseURL }}"><img src="/images/other/gf_logo.svg" class="img-responsive" alt="Продакшн студия Grapefilms"></a>
-                    </div>
-                    <div class="col-md-8">
-                        <p class="lead text-right">Корпоративные фильмы. Видеореклама. Музыкальные клипы</p>
-                        {{ partial "menu.html" . }}
+              <div class="row">
+                  <div class="logo col-md-4">
+                      <img src="/images/other/gf_logo.svg" class="img-responsive" alt="Продакшн студия Grapefilms">
+                  </div>
+                  <div class="col-md-8 vertical-align">
+                      <p class="logo-text lead">Корпоративные фильмы. Видеореклама. Музыкальные клипы</p>
+                      {{ partial "menu.html" . }}
 
-                    </div>
-                </div>
+                  </div>
+              </div>
             </div>
 
 <!-- Page Header -->
@@ -70,23 +70,23 @@
                 <img src="{{ .Site.BaseURL }}images/portfolio/{{ .Params.project_info.photo }}" alt="" class="img-responsive">
                 <h5>{{ .Title }}</h5>
               </a>
-            </div>       
+            </div>
     {{ else }}
             <div class="col-md-6">
               <a href="{{ .Permalink }}">
                 <img src="{{ .Site.BaseURL }}images/portfolio/{{ .Params.project_info.photo }}" alt="" class="img-responsive">
                 <h5>{{ .Title }}</h5>
               </a>
-            </div>  
+            </div>
         </div>
     {{ end }}
 
-  {{ if (not (modBool (len $portfolio) 2)) }}  
+  {{ if (not (modBool (len $portfolio) 2)) }}
       {{ if eq $len (add $index 0) }}
-              <div class="col-md-6">                   
+              <div class="col-md-6">
               </div>
           </div>
-      {{ end }}    
+      {{ end }}
     {{ end }}
   {{ end }}
 

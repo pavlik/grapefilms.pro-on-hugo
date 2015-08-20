@@ -40,16 +40,16 @@
         <div class="container">
 
             <div class="page-header">
-                <div class="row vertical-align">
-                    <div class="col-md-4">
-                        <a href="{{ .Site.BaseURL }}"><img src="/images/other/gf_logo.svg" class="img-responsive" alt="Продакшн студия Grapefilms"></a>
-                    </div>
-                    <div class="col-md-8">
-                        <p class="lead text-right">Корпоративные фильмы. Видеореклама. Музыкальные клипы</p>
-                        {{ partial "menu.html" . }}
+              <div class="row">
+                  <div class="logo col-md-4">
+                      <img src="/images/other/gf_logo.svg" class="img-responsive" alt="Продакшн студия Grapefilms">
+                  </div>
+                  <div class="col-md-8 vertical-align">
+                      <p class="logo-text lead">Корпоративные фильмы. Видеореклама. Музыкальные клипы</p>
+                      {{ partial "menu.html" . }}
 
-                    </div>
-                </div>
+                  </div>
+              </div>
             </div>
 
 <!-- Page Header -->
@@ -65,7 +65,7 @@
           {{ range $k, $v := .Site.Taxonomies.tags.blog }}
           <li>
             <h4>{{ .Page.Date.Format  "02.01.2006" }}&nbsp;&nbsp;<a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></h4>
-            <!-- {{ .Page.Summary }}   -->     
+            <!-- {{ .Page.Summary }}   -->
           </li>
           {{ end }}
       </ul>
