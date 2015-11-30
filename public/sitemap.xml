@@ -3,8 +3,13 @@
   
   <url>
     <loc>http://grapefilms.pro/</loc>
-    <lastmod>2015-03-31T14:04:46+03:00</lastmod>
+    <lastmod>2015-09-10T10:00:00+03:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://grapefilms.pro/portfolio/inforolik_antares.html</loc>
+    <lastmod>2015-09-10T10:00:00+03:00</lastmod>
   </url>
   
   <url>
@@ -93,15 +98,15 @@
   </url>
   
   <url>
+    <loc>http://grapefilms.pro/about.html</loc>
+  </url>
+  
+  <url>
     <loc>http://grapefilms.pro/mentions.html</loc>
   </url>
   
   <url>
     <loc>http://grapefilms.pro/contacts.html</loc>
-  </url>
-  
-  <url>
-    <loc>http://grapefilms.pro/about.html</loc>
   </url>
   
   <url>
