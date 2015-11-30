@@ -18,7 +18,7 @@ tags = ["blog"]
     editing = "Николай Сивцев"
     animation = ""
     graphics = ""
-    sound = "Семен Хомченко"
+    sound = "Семён Хомченко"
     voice = "Антон Виноградов"
     backstage = []
 
