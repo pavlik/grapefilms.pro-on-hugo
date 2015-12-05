@@ -22,6 +22,16 @@
 <script src="/js/jquery.fancybox-media.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.js"></script>
 
+<script>
+  $(function () {
+    // Вешаем событие на клик по кнопке
+    $('#custom-chatra-button').on('click', function() {
+      // Открываем чат и фокусируем поле ввода
+      Chatra('openChat', true);
+    });
+  });
+</script>
+
 <script type="text/javascript">
 $(document).ready(function() {
     $(".fancybox").fancybox({
