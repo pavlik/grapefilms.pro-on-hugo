@@ -10,7 +10,7 @@ series = ["best"]
 [project_info]
   artdirector = "Николай Сивцев"
   backstage = ["1", "2", "3", "4"]
-  client = "Ресторан &laquo;Brookwin&raquo;"
+  client = "Ресторан Brookwin"
   editing = "Николай Сивцев"
   producer = "Павел Павленко"
   production = "Grapefilms"
