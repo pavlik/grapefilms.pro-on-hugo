@@ -1,4 +1,4 @@
-baseurl = "http://grapefilms.pro/"
+baseurl = "https://grapefilms.pro/"
 languageCode = "ru-RU"
 title = "Grapefilms production. Производство видео"
 uglyurls = true
