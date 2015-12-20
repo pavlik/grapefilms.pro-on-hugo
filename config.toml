@@ -25,13 +25,13 @@ uglyurls = true
 	url = "/portfolio.html"
 	weight = 40
 [[menu.main]]
-	name = "Услуги"
-  	url = "/services.html"
-  	weight = 50
-[[menu.main]]
 	name = "Отзывы"
 	url = "/mentions.html"
-	weight = 60
+	weight = 50
+[[menu.main]]
+	name = "Услуги"
+  	url = "/services.html"
+  	weight = 60
 [[menu.main]]
 	name = "Блог"
   	url = "/blog.html"
