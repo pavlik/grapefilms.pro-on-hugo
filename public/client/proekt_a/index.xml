@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Proekt_a on Grapefilms production. Производство видео</title>
-    <link>http://grapefilms.pro/client/proekt_a.html</link>
+    <link>http://localhost:1313/client/proekt_a.html</link>
     <description>Recent content in Proekt_a on Grapefilms production. Производство видео</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-RU</language>
     <lastBuildDate>Fri, 27 Mar 2015 11:27:55 +0300</lastBuildDate>
-    <atom:link href="http://grapefilms.pro/client/proekt_a.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/client/proekt_a.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Анимационный ролик о компании «Проект «А». Анимация.</title>
-      <link>http://grapefilms.pro/portfolio/rolik_acompany_novoros.html</link>
+      <link>http://localhost:1313/portfolio/rolik_acompany_novoros.html</link>
       <pubDate>Fri, 27 Mar 2015 11:27:55 +0300</pubDate>
       
-      <guid>http://grapefilms.pro/portfolio/rolik_acompany_novoros.html</guid>
+      <guid>http://localhost:1313/portfolio/rolik_acompany_novoros.html</guid>
       <description>&lt;p&gt;Проект &amp;laquo;А&amp;raquo;&amp;nbsp;&amp;mdash; компания полного бухгалтерского и&amp;nbsp;юридического сопровождения.
 Компания помогает вам экономить деньги на&amp;nbsp;бухгалтерии, юристе, кадровике, особенно на&amp;nbsp;этапе становления компании.&lt;/p&gt;
 

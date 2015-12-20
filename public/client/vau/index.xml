@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vau on Grapefilms production. Производство видео</title>
-    <link>http://grapefilms.pro/client/vau.html</link>
+    <link>http://localhost:1313/client/vau.html</link>
     <description>Recent content in Vau on Grapefilms production. Производство видео</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-RU</language>
     <lastBuildDate>Thu, 01 Aug 2013 09:39:26 +0300</lastBuildDate>
-    <atom:link href="http://grapefilms.pro/client/vau.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/client/vau.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Промо-ролик салона оптики «VAU»</title>
-      <link>http://grapefilms.pro/portfolio/promorolik_optika_vau.html</link>
+      <link>http://localhost:1313/portfolio/promorolik_optika_vau.html</link>
       <pubDate>Thu, 01 Aug 2013 09:39:26 +0300</pubDate>
       
-      <guid>http://grapefilms.pro/portfolio/promorolik_optika_vau.html</guid>
+      <guid>http://localhost:1313/portfolio/promorolik_optika_vau.html</guid>
       <description>&lt;p&gt;VAU&amp;nbsp;&amp;mdash; так можно описать впечатления, когда впервые попадаешь в&amp;nbsp;салон оптики &amp;laquo;VAU&amp;raquo;. Стильные очки и&amp;nbsp;часы, которые можно встретить в&amp;nbsp;модных журналах. Ролик должен соответствовать духу салона. Пришлось создать специальную конструкцию для съемок этого рекламного ролика. Результат смотрите выше.&lt;/p&gt;
 </description>
     </item>

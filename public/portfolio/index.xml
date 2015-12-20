@@ -2,19 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolios on Grapefilms production. Производство видео</title>
-    <link>http://grapefilms.pro/portfolio.html</link>
+    <link>http://localhost:1313/portfolio.html</link>
     <description>Recent content in Portfolios on Grapefilms production. Производство видео</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-RU</language>
-    <lastBuildDate>Thu, 10 Sep 2015 10:00:00 +0300</lastBuildDate>
-    <atom:link href="http://grapefilms.pro/portfolio.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Dec 2015 10:00:00 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/portfolio.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Рекламный ролик рестобара «Brookwin»</title>
+      <link>http://localhost:1313/portfolio/videoreklama_brookwin.html</link>
+      <pubDate>Sat, 05 Dec 2015 10:00:00 +0300</pubDate>
+      
+      <guid>http://localhost:1313/portfolio/videoreklama_brookwin.html</guid>
+      <description>&lt;p&gt;Мы&amp;nbsp;любим снимать видео. Ну&amp;nbsp;а&amp;nbsp;о&amp;nbsp;вкусной еде и&amp;nbsp;хорошем вине вдвойне :) Закончили работу над роликом для гастрономического бара &amp;laquo;Brookwin&amp;raquo;.
+Смотрите видеоролик в&amp;nbsp;&amp;laquo;IMAX Анапа&amp;raquo; и&amp;nbsp;заходите в&amp;nbsp;&amp;laquo;Бруквин&amp;raquo;!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Информационный ролик о логистической компании «Антарес-Трейдинг»</title>
-      <link>http://grapefilms.pro/portfolio/inforolik_antares.html</link>
+      <link>http://localhost:1313/portfolio/inforolik_antares.html</link>
       <pubDate>Thu, 10 Sep 2015 10:00:00 +0300</pubDate>
       
-      <guid>http://grapefilms.pro/portfolio/inforolik_antares.html</guid>
+      <guid>http://localhost:1313/portfolio/inforolik_antares.html</guid>
       <description>&lt;p&gt;&amp;laquo;Антарес-трейдинг&amp;raquo; является лидером в&amp;nbsp;транспортно-логистическом обслуживании в&amp;nbsp;порту города Новороссийска.&lt;/p&gt;
 
 &lt;p&gt;Перед заказчиком стояла задача презентовать ролик на&amp;nbsp;московской выставке World Food Moscow 2015. За&amp;nbsp;короткий срок мы&amp;nbsp;написали сценарий, подобрали дополнительные видеоматериалы, сняли с&amp;nbsp;земли и&amp;nbsp;воздуха в&amp;nbsp;морпорту и&amp;nbsp;распределительном центре города Новороссийска. На&amp;nbsp;постпродакшене мы&amp;nbsp;оперативно озвучили ролик, сделали ретуширование видео, цветокоррекцию и&amp;nbsp;графику. На&amp;nbsp;выставке клиенты компании &amp;laquo;Антарес-трейдинг&amp;raquo; положительно отметили качество и&amp;nbsp;уровень работы студии Grapefilms.&lt;/p&gt;
@@ -23,20 +34,20 @@
     
     <item>
       <title>Рекламный ролик соков «Сочная долина»</title>
-      <link>http://grapefilms.pro/portfolio/videoreklama_sochnaya_dolina.html</link>
+      <link>http://localhost:1313/portfolio/videoreklama_sochnaya_dolina.html</link>
       <pubDate>Tue, 31 Mar 2015 14:04:46 +0300</pubDate>
       
-      <guid>http://grapefilms.pro/portfolio/videoreklama_sochnaya_dolina.html</guid>
+      <guid>http://localhost:1313/portfolio/videoreklama_sochnaya_dolina.html</guid>
       <description>&lt;p&gt;Перед нами стояла непростая задача: в&amp;nbsp;сжатые сроки сделать ролик для рекламной кампании соков &amp;laquo;Сочная Долина&amp;raquo; на&amp;nbsp;телевидении и&amp;nbsp;в&amp;nbsp;интернете. Специально для этого ролика была разработана 3D-графика, написана авторская музыка и&amp;nbsp;сделан саунд-дизайн. С&amp;nbsp;помощью графики мы&amp;nbsp;показали особенность продукта&amp;nbsp;&amp;mdash; более короткую производственную цепочку. Такой сок не&amp;nbsp;проходит стадии концентрирования и&amp;nbsp;последующего восстановления, а&amp;nbsp;сразу после отжима может быть разлит в&amp;nbsp;потребительскую упаковку. Такая технология позволяет максимально сохранить вкус и&amp;nbsp;пользу свежих фруктов.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Анимационный ролик о компании «Проект «А». Анимация.</title>
-      <link>http://grapefilms.pro/portfolio/rolik_acompany_novoros.html</link>
+      <link>http://localhost:1313/portfolio/rolik_acompany_novoros.html</link>
       <pubDate>Fri, 27 Mar 2015 11:27:55 +0300</pubDate>
       
-      <guid>http://grapefilms.pro/portfolio/rolik_acompany_novoros.html</guid>
+      <guid>http://localhost:1313/portfolio/rolik_acompany_novoros.html</guid>
       <description>&lt;p&gt;Проект &amp;laquo;А&amp;raquo;&amp;nbsp;&amp;mdash; компания полного бухгалтерского и&amp;nbsp;юридического сопровождения.
 Компания помогает вам экономить деньги на&amp;nbsp;бухгалтерии, юристе, кадровике, особенно на&amp;nbsp;этапе становления компании.&lt;/p&gt;
 
@@ -48,10 +59,10 @@
     
     <item>
       <title>Информационный ролик о производстве соков «Сочная долина»</title>
-      <link>http://grapefilms.pro/portfolio/inforolik_sok_sochnaya_dolina.html</link>
+      <link>http://localhost:1313/portfolio/inforolik_sok_sochnaya_dolina.html</link>
       <pubDate>Fri, 28 Nov 2014 09:32:30 +0300</pubDate>
       
-      <guid>http://grapefilms.pro/portfolio/inforolik_sok_sochnaya_dolina.html</guid>
+      <guid>http://localhost:1313/portfolio/inforolik_sok_sochnaya_dolina.html</guid>
       <description>&lt;p&gt;Информационный ролик, рассказывающий о&amp;nbsp;производстве яблочных соков прямого отжима.&lt;/p&gt;
 
 &lt;p&gt;Многие не&amp;nbsp;знают, как производятся соки, и&amp;nbsp;уверены, что соки это ненатуральный продукт, в&amp;nbsp;котором есть &amp;laquo;химия&amp;raquo;. В&amp;nbsp;этом ролике мы&amp;nbsp;постарались показать весь технологический процесс производства соков прямого отжима &amp;laquo;Сочная долина&amp;raquo;. Мы&amp;nbsp;побывали на&amp;nbsp;заводе и&amp;nbsp;лично убедились, что при производстве соков прямого отжима &amp;laquo;Сочная долина&amp;raquo; не&amp;nbsp;используются консерванты. И&amp;nbsp;яблочки наши, Кубанские!&lt;/p&gt;
@@ -60,10 +71,10 @@
     
     <item>
       <title>Социальный ролик для администрации г. Краснодара</title>
-      <link>http://grapefilms.pro/portfolio/social_rolik_udm_krasnodar.html</link>
+      <link>http://localhost:1313/portfolio/social_rolik_udm_krasnodar.html</link>
       <pubDate>Fri, 08 Aug 2014 09:36:43 +0300</pubDate>
       
-      <guid>http://grapefilms.pro/portfolio/social_rolik_udm_krasnodar.html</guid>
+      <guid>http://localhost:1313/portfolio/social_rolik_udm_krasnodar.html</guid>
       <description>&lt;p&gt;Социальный ролик для управления по&amp;nbsp;делам молодежи&amp;nbsp;г. Краснодара
 Краснодар первый город в&amp;nbsp;стране, где граффити поддерживает администрация города.&lt;/p&gt;
 
@@ -73,10 +84,10 @@
     
     <item>
       <title>Рекламный ролик для «Ривьера-клуб отель &amp; SPA». Презентационный фильм</title>
-      <link>http://grapefilms.pro/portfolio/videoreklama_riviera_anapa.html</link>
+      <link>http://localhost:1313/portfolio/videoreklama_riviera_anapa.html</link>
       <pubDate>Sun, 15 Jun 2014 13:47:16 +0300</pubDate>
       
-      <guid>http://grapefilms.pro/portfolio/videoreklama_riviera_anapa.html</guid>
+      <guid>http://localhost:1313/portfolio/videoreklama_riviera_anapa.html</guid>
       <description>&lt;p&gt;Это один из&amp;nbsp;немногих клубных отелей на&amp;nbsp;российском побережье, который действует по&amp;nbsp;принципу &amp;laquo;всё включено&amp;raquo;, а&amp;nbsp;также направлен на&amp;nbsp;семейный отдых. По&amp;nbsp;сюжету молодая семья приезжает в&amp;nbsp;отель и&amp;nbsp;получает все 33&amp;nbsp;удовольствия от&amp;nbsp;отдыха!&lt;/p&gt;
 
 &lt;p&gt;Перед нами стояла непростая задача создать презентационный фильм и показать настоящие эмоции, и&amp;nbsp;настоящую семью. И&amp;nbsp;нам повезло&amp;nbsp;&amp;mdash; с&amp;nbsp;Grapefilms работал идеальный актерский состав. Ребятам даже не&amp;nbsp;приходилось играть&amp;nbsp;&amp;mdash; они просто были собой. На&amp;nbsp;площадке работала команда из&amp;nbsp;14&amp;nbsp;человек. За&amp;nbsp;3&amp;nbsp;съёмочных дня мы&amp;nbsp;превратились в&amp;nbsp;одну большую семью. И&amp;nbsp;не&amp;nbsp;совсем понятно, работали мы&amp;nbsp;эти 3&amp;nbsp;дня или отдыхали? :)&lt;/p&gt;
@@ -89,93 +100,83 @@
     
     <item>
       <title>Промо-ролик для морского терминала «Тамань». Бизнес видео.</title>
-      <link>http://grapefilms.pro/portfolio/promovideo_mtt.html</link>
+      <link>http://localhost:1313/portfolio/promovideo_mtt.html</link>
       <pubDate>Mon, 19 May 2014 10:07:56 +0300</pubDate>
       
-      <guid>http://grapefilms.pro/portfolio/promovideo_mtt.html</guid>
+      <guid>http://localhost:1313/portfolio/promovideo_mtt.html</guid>
       <description>&lt;p&gt;Для морского терминала &amp;laquo;Тамань&amp;raquo; сняли русскую и&amp;nbsp;английскую версии промо-ролика для презентации инвесторам. Были непростые условия для съёмки. Необходимо было учесть скорость ветра, дату и&amp;nbsp;время (с&amp;nbsp;точностью до&amp;nbsp;5&amp;nbsp;минут) швартовки судна, солнечный день и&amp;nbsp;другие природные факторы. Благодаря слаженной работе нашей команды и&amp;nbsp;стороне заказчика мы&amp;nbsp;справились!&lt;/p&gt;
 
-&lt;p&gt;Выражаем благодарность стороне клиента, Виктории Перминовой (специалист отдела по&amp;nbsp;связям с&amp;nbsp;общественностью)&lt;/p&gt;
+&lt;!-- Выражаем благодарность стороне клиента, Виктории Перминовой (специалист отдела по&amp;nbsp;связям с&amp;nbsp;общественностью) --&gt;
 </description>
     </item>
     
     <item>
       <title>Рекламный ролик для центра винного туризма «Фанагория». Видеореклама.</title>
-      <link>http://grapefilms.pro/portfolio/videoreklama_fanagoria.html</link>
+      <link>http://localhost:1313/portfolio/videoreklama_fanagoria.html</link>
       <pubDate>Fri, 01 Nov 2013 22:36:30 +0300</pubDate>
       
-      <guid>http://grapefilms.pro/portfolio/videoreklama_fanagoria.html</guid>
+      <guid>http://localhost:1313/portfolio/videoreklama_fanagoria.html</guid>
       <description>&lt;p&gt;Центр Винного Туризма &amp;laquo;Фанагория&amp;raquo; уникальное место на&amp;nbsp;Таманском полуострове. Перед нами стояла задача показать уникальность и&amp;nbsp;многогранность этого места в&amp;nbsp;30-секундном рекламном ролике. Несмотря на&amp;nbsp;то&amp;nbsp;что, съемки начинались ранним утром и&amp;nbsp;продолжались до&amp;nbsp;самого захода солнца, эти дни пролетели быстро. Виды таманского полустрова заряжали энергией на&amp;nbsp;весь день!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Информационный ролик о пользе Шампань СПА</title>
-      <link>http://grapefilms.pro/portfolio/inforolik_abrau_shampan_spa.html</link>
+      <link>http://localhost:1313/portfolio/inforolik_abrau_shampan_spa.html</link>
       <pubDate>Tue, 01 Oct 2013 08:52:26 +0300</pubDate>
       
-      <guid>http://grapefilms.pro/portfolio/inforolik_abrau_shampan_spa.html</guid>
+      <guid>http://localhost:1313/portfolio/inforolik_abrau_shampan_spa.html</guid>
       <description>&lt;p&gt;Информационный ролик рассказывающий о&amp;nbsp;пользе Шампань СПА. Совместно с&amp;nbsp;проектом Wineholidays мы&amp;nbsp;рассказали о&amp;nbsp;всей химии винных спа. Наша команда занималась съёмками, пост-продакшеном, а&amp;nbsp;также мы&amp;nbsp;разработали 3D-графику. Ролик транслируется на&amp;nbsp;плазмах Центра Винного Туризма &amp;laquo;Абрау-Дюрсо&amp;raquo;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Промо-ролик салона оптики «VAU»</title>
-      <link>http://grapefilms.pro/portfolio/promorolik_optika_vau.html</link>
+      <link>http://localhost:1313/portfolio/promorolik_optika_vau.html</link>
       <pubDate>Thu, 01 Aug 2013 09:39:26 +0300</pubDate>
       
-      <guid>http://grapefilms.pro/portfolio/promorolik_optika_vau.html</guid>
+      <guid>http://localhost:1313/portfolio/promorolik_optika_vau.html</guid>
       <description>&lt;p&gt;VAU&amp;nbsp;&amp;mdash; так можно описать впечатления, когда впервые попадаешь в&amp;nbsp;салон оптики &amp;laquo;VAU&amp;raquo;. Стильные очки и&amp;nbsp;часы, которые можно встретить в&amp;nbsp;модных журналах. Ролик должен соответствовать духу салона. Пришлось создать специальную конструкцию для съемок этого рекламного ролика. Результат смотрите выше.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Промо-ролик отеля «Империал». Имиджевый ролик</title>
-      <link>http://grapefilms.pro/portfolio/promorolik_abrau_imperial.html</link>
+      <link>http://localhost:1313/portfolio/promorolik_abrau_imperial.html</link>
       <pubDate>Fri, 29 Mar 2013 09:26:46 +0300</pubDate>
       
-      <guid>http://grapefilms.pro/portfolio/promorolik_abrau_imperial.html</guid>
+      <guid>http://localhost:1313/portfolio/promorolik_abrau_imperial.html</guid>
       <description>&lt;p&gt;Промо-ролик отеля &amp;laquo;Империал&amp;raquo;. Самая сладкая работа в&amp;nbsp;нашем портфолио. Не&amp;nbsp;понятно&amp;nbsp;&amp;mdash; то&amp;nbsp;ли мы&amp;nbsp;были неделю на&amp;nbsp;отдыхе, то&amp;nbsp;ли это была работа. Для нас эта съёмка стала открытием &amp;laquo;Абрау-Дюрсо&amp;raquo;&amp;nbsp;&amp;mdash; чудного уголка русской Франции спрятанной в&amp;nbsp;горах между Анапой и&amp;nbsp;Новороссийском. С&amp;nbsp;тех пор мы&amp;nbsp;влюбились в&amp;nbsp;это место.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Корпоративный фильм компании «РенКапСтрой», г. Краснодар</title>
-      <link>http://grapefilms.pro/portfolio/korporativniy_film_renkapstroy_krasnodar.html</link>
+      <link>http://localhost:1313/portfolio/korporativniy_film_renkapstroy_krasnodar.html</link>
       <pubDate>Fri, 23 Nov 2012 10:12:30 +0300</pubDate>
       
-      <guid>http://grapefilms.pro/portfolio/korporativniy_film_renkapstroy_krasnodar.html</guid>
+      <guid>http://localhost:1313/portfolio/korporativniy_film_renkapstroy_krasnodar.html</guid>
       <description>&lt;p&gt;Крупный Краснодарский застройщик &amp;laquo;РенКапСтрой&amp;raquo; открывал свой новый объект. Новый микрорайон многоквартирных жилых домов. Про это событие мы&amp;nbsp;сделали видеоотчет с&amp;nbsp;открытия комлекса.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Музыкальный клип «Имею право», группы Radio Masts</title>
-      <link>http://grapefilms.pro/portfolio/musicclip_radiomasts_imeyu_pravo.html</link>
+      <link>http://localhost:1313/portfolio/musicclip_radiomasts_imeyu_pravo.html</link>
       <pubDate>Sun, 18 Nov 2012 10:17:47 +0300</pubDate>
       
-      <guid>http://grapefilms.pro/portfolio/musicclip_radiomasts_imeyu_pravo.html</guid>
+      <guid>http://localhost:1313/portfolio/musicclip_radiomasts_imeyu_pravo.html</guid>
       <description>&lt;p&gt;Вторая работа для группы Radio Masts. Клип &amp;laquo;Имею право&amp;raquo;. Впечатления от&amp;nbsp;съёмок остались самые положительные! Изумительная локация: старые кукурузники, дух рока и&amp;nbsp;СССР.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Музыкальный клип «Corporation», группы Radio Masts. Создание клипов.</title>
-      <link>http://grapefilms.pro/portfolio/musicclip_radiomasts_corporations.html</link>
+      <link>http://localhost:1313/portfolio/musicclip_radiomasts_corporations.html</link>
       <pubDate>Thu, 15 Dec 2011 10:34:09 +0300</pubDate>
       
-      <guid>http://grapefilms.pro/portfolio/musicclip_radiomasts_corporations.html</guid>
+      <guid>http://localhost:1313/portfolio/musicclip_radiomasts_corporations.html</guid>
       <description>&lt;p&gt;Вы&amp;nbsp;задумывались, как корпорации влияют на&amp;nbsp;будни и&amp;nbsp;здоровье современного человека? А&amp;nbsp;группа Radio Masts задумалась&amp;nbsp;&amp;mdash; смотрите их&amp;nbsp;мысли в&amp;nbsp;музыкальном клипе &amp;laquo;Корпорации&amp;raquo;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Мотокросс 2011, город-курорт Анапа. Видеоотчет о мероприятии.</title>
-      <link>http://grapefilms.pro/portfolio/rolik_motokross_anapa.html</link>
-      <pubDate>Thu, 02 Jun 2011 10:15:01 +0300</pubDate>
-      
-      <guid>http://grapefilms.pro/portfolio/rolik_motokross_anapa.html</guid>
-      <description>&lt;p&gt;В&amp;nbsp;мае 2011 года в&amp;nbsp;Анапе прошли соревнования по&amp;nbsp;мотокроссу. Они были посвящены воинам-анапчанам, погибшим при исполнении воинского долга. Мы&amp;nbsp;сделали видеоотчет о&amp;nbsp;данном мероприятии. В&amp;nbsp;ролике старались передать атмосферу этого спорта&amp;nbsp;&amp;mdash; быстрого, мощного и&amp;nbsp;опасного! Когда над нашими головами пролетали мотогонщики&amp;nbsp;&amp;mdash; адреналин зашкаливал!&lt;/p&gt;
 </description>
     </item>
     
