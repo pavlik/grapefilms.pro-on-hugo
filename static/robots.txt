@@ -1,5 +1,5 @@
 User-agent: *
 Disallow: /404.html
 Allow: /
-Sitemap: http://grapefilms.pro/sitemap.xml
-Host: grapefilms.pro
+Sitemap: https://grapefilms.pro/sitemap.xml
+Host: https://grapefilms.pro
