@@ -81,7 +81,8 @@
     <!-- Инфоблок -->
     <dl class="dl-horizontal">
     {{ if .Params.project_info.client }} <dt>Клиент:</dt> <dd>{{ .Params.project_info.client }}</dd> {{ end }}
-<!--   
+    {{ if .Date }} <dt>Год:</dt> <dd>{{ .Date.Format "2006" }}</dd> {{ end }}
+   
     {{ if .Params.project_info.production }} <dt>Производство:</dt> <dd>{{ .Params.project_info.production }}</dd> {{ end }}
     {{ if .Params.project_info.producer }} <dt>Продюсер:</dt> <dd>{{ .Params.project_info.producer }}</dd> {{ end }}
     {{ if .Params.project_info.artdirector }} <dt>Арт-директор:</dt> <dd>{{ .Params.project_info.artdirector }}</dd> {{ end }}
@@ -95,7 +96,7 @@
     {{ if .Params.project_info.sound }} <dt>Звук:</dt> <dd>{{ .Params.project_info.sound }}</dd> {{ end }}
     {{ if .Params.project_info.voice }} <dt>Голос:</dt> <dd>{{ .Params.project_info.voice }}</dd> {{ end }}
     {{ if .Params.project_info.actors }} <dt>Актеры:</dt> <dd>{{ .Params.project_info.actors }}</dd> {{ end }}
-   -->
+   
     </dl>
   </div>
 </div>
