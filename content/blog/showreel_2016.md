@@ -4,18 +4,22 @@ date = "2016-10-14T13:00:00+03:00"
 description = "Шоурил Grapefilms 2016"
 keywords = ["рекламный ролик", "видеореклама", "showreel", "шоурил"]
 thumbnail = ""
-title = "Наш шоурил 2016"
+title = "Showreel 2016"
 tags = ["blog"]
+
+series = ["best"]
+[project_info]
+    photo = "cvt_abrau.jpg"
 
 +++
 
 {{< vimeo 187156696 >}}
 <p>
 <br>
-Рады представить вам шоурил, в котором мы постарались собрать самые яркие моменты из наших работ за последние 3 года.
+Рады представить вам showreel, в котором мы постарались собрать самые яркие моменты из наших работ за последние 3 года.
 </p>
 <p>
-Full Spot List
+*Список работ использованных в showreel:*
 
 00:11 [Центр винного туризма «Фанагория»](https://grapefilms.pro/portfolio/videoreklama_fanagoria.html)
 

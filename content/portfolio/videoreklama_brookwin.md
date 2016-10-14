@@ -5,7 +5,6 @@ description = "Рекламный ролик рестобара Brookwin"
 keywords = ["рекламный ролик", "реклама", "анапа", "бар", "ресторан", "винный ресторан", "Brookwin", "Бруквин"]
 tags = ["blog"]
 title = "Рекламный ролик рестобара «Brookwin»"
-series = ["best"]
 
 [project_info]
   artdirector = "Николай Сивцев"
