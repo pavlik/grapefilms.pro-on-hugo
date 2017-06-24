@@ -11,7 +11,7 @@ description = "Контактная информация видеостудии 
 
 **Телефоны:**
 <br/>+7 (918) 67-00-777
-<br/>+7 (988) 32-177-35
+<br/>+7 (918) 315-61-11
 
 **Почта:**
 <br/><a href="mailto:mail@grapefilms.pro?subj=videoproduction">mail@grapefilms.pro</a>
