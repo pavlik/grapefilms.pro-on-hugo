@@ -10,7 +10,7 @@ tags = ["blog"]
 [project_info]
     client = "Интерагросистемы"
     photo = "ias.jpg"
-    vimeo = "113073646"
+    youtube = "GrdA6pEHr1g"
     production = "Grapefilms"
     producer = "Павел Павленко"
     scenario = "Павел Павленко" 

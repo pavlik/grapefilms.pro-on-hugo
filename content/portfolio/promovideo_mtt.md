@@ -10,7 +10,7 @@ tags = ["blog"]
 [project_info]
     client = "ООО «Морской терминал Тамань»"
     photo = "mtt.jpg"
-    vimeo = "103892241"
+    youtube = "CeI4TLgECpU"
     production = "Grapefilms"
     producer = "Павел Павленко"
     scenario = "Николай Сивцев"

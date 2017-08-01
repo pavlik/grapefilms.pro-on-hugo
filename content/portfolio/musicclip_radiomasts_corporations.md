@@ -10,7 +10,7 @@ tags = ["blog"]
 [project_info]
     client = "Группа Radio Masts"
     photo = "radiomasts_1.jpg"
-    vimeo = "33719465"
+    youtube = "-oD6c2-6aK0"
     production = "Grapefilms"
     producer = "Павел Павленко"
     scenario = "Николай Сивцев"

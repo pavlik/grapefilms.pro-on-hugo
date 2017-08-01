@@ -74,7 +74,12 @@
   <div class="col-md-8">
     <!-- Видео -->
     <div class="embed-responsive embed-responsive-16by9">
-      <iframe src="//player.vimeo.com/video/{{ .Params.project_info.vimeo }}?title=0&byline=0&portrait=0" class="embed-responsive-item" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          {{ if .Params.project_info.youtube }}
+          <iframe src="//www.youtube.com/embed/{{ .Params.project_info.youtube }}" frameborder="0" allowfullscreen></iframe>
+          {{ end }} 
+          {{ if .Params.project_info.vimeo }}
+          <iframe src="//player.vimeo.com/video/{{ .Params.project_info.vimeo }}?title=0&byline=0&portrait=0" class="embed-responsive-item" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          {{ end }}
     </div>
   </div>
   <div class="col-md-4">

@@ -10,7 +10,7 @@ tags = ["blog"]
 [project_info]
     client = "Комитет по делам молодежи, г. Краснодар"
     photo = "graffiti.jpg"
-    vimeo = "112916135"
+    youtube = "3_GxqcKPPPk"
     production = "Grapefilms"
     producer = "Павел Павленко"
     scenario = ""

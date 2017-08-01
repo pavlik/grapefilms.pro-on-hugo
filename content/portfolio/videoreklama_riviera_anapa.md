@@ -10,7 +10,7 @@ tags = ["blog"]
 [project_info]
     client = "Группа компаний «Алеан»"
     photo = "riviera.jpg"
-    vimeo = "102912027"
+    youtube = "VnkJrezyfrk"
     production = "Grapefilms"
     producer = "Павел Павленко"
     scenario = ""

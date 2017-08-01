@@ -10,7 +10,7 @@ tags = ["blog"]
 [project_info]
     client = "Проект «А»"
     photo = "a_company.jpg"
-    vimeo = "122730785"
+    youtube = "smb_TntU6to"
     production = "Grapefilms"
     producer = "Павел Павленко"
     scenario = "Николай Сивцев"

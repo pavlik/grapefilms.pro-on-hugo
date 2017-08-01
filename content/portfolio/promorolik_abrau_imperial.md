@@ -10,7 +10,7 @@ tags = ["blog"]
 [project_info]
     client = "Центр винного туризма «Абрау-Дюрсо»"
     photo = "imperial.jpg"
-    vimeo = "62927949"
+    youtube = "Lsll1m8o3F4"
     production = "Wineholidays, Grapefilms"
     producer = "Дмитрий Терентьев"
     scenario = ""    
