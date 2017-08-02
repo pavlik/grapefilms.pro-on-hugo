@@ -33,7 +33,8 @@
     <div class="col-md-6">
 	    <dl class="dl-horizontal">
 		  {{ range first 5 .Paginator.Pages }}
-		  <dt><span class="label label-default">{{ .Date.Format  "02.01.2006" }}</span></dt>
+		  <!-- <dt><span class="label label-default">{{ .Date.Format  "02.01.2006" }}</span></dt> -->
+			
 		  <dd class="news"><a href="{{ .Permalink }}">{{ .Title }}</a> </dd>
 		  {{ end }}
 		</dl>

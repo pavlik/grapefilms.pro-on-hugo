@@ -21,7 +21,7 @@ tags = ["blog"]
   shooting = "Сергей Цыганко"
   sound_design = "Константин Чубаков"
   music = "Константин Чубаков"
-  vimeo = "122985658"
+  youtube = "IfbI4KMCP3g"
   voice = "Алексей Ляпунов"
 
 +++
