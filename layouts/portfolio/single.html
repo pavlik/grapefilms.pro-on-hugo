@@ -150,39 +150,7 @@
           </div>
         </div>
           {{ $len := sub (len $taxonomy.Pages) 2 }}
-          {{ range $index, $el := where $taxonomy.Pages "Params.project_info.vimeo" "!=" $page.Params.project_info.vimeo }}
-
-
-            {{ if modBool $index 2 }}
-                <div class="row">
-                    <div class="col-md-6">
-                      <a href="{{ .Permalink }}">
-                        <img src="{{ .Site.BaseURL }}images/portfolio/{{ .Params.project_info.photo }}" alt="" class="img-responsive">
-                        <h5>{{ .Title }}</h5>
-                      </a>
-                    </div>
-            {{ else }}
-                    <div class="col-md-6">
-                      <a href="{{ .Permalink }}">
-                        <img src="{{ .Site.BaseURL }}images/portfolio/{{ .Params.project_info.photo }}" alt="" class="img-responsive">
-                        <h5>{{ .Title }}</h5>
-                      </a>
-                    </div>
-                </div>
-            {{ end }}
-
-            {{ if (not (modBool (sub (len $taxonomy.Pages) 1) 2)) }}
-                {{ if eq $len (add $index 0) }}
-                        <div class="col-md-6">
-                        </div>
-                    </div>
-                {{ end }}
-              {{ end }}
-            {{ end }}
-
-            <!-- For Youtube -->
-          {{ range $index, $el := where $taxonomy.Pages "Params.project_info.youtube" "!=" $page.Params.project_info.youtube }}
-
+          {{ range $index, $el := where $taxonomy.Pages "UniqueID" "!=" $page.UniqueID }}
 
             {{ if modBool $index 2 }}
                 <div class="row">
@@ -209,7 +177,7 @@
                     </div>
                 {{ end }}
               {{ end }}
-            {{ end }}
+          {{ end }}
 
         <!-- </div> -->
         {{ end }}
