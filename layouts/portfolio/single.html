@@ -121,6 +121,40 @@
 </div>
 {{ end }}
 
+<!-- Другие видео в рамках текущего проекта -->
+{{ if .Params.project_info.youtube_another_videos }}
+{{ $count := len .Params.project_info.youtube_another_videos }}
+
+      <div class="row hr">
+        <div class="col-md-12">
+          <h4>Другие работы в рамках этого проекта</h4>
+        </div>
+      </div>
+      {{ range $index, $el := .Params.project_info.youtube_another_videos }}
+
+        {{ if modBool $index 2 }}
+            <div class="row">
+                <div class="col-md-6">
+                  <iframe src="//www.youtube.com/embed/{{ $el }}" frameborder="0" allowfullscreen></iframe>
+                </div>
+        {{ else }}
+                <div class="col-md-6">
+                  <iframe src="//www.youtube.com/embed/{{ $el }}" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        {{ end }}
+
+        {{ if (not (modBool $count 2)) }}
+            {{ if eq $count (add $index 1) }}
+                    <div class="col-md-6">
+                    </div>
+                </div>
+            {{ end }}
+        {{ end }}
+
+      {{ end }}
+{{ end }}
+
 <!-- Backstage -->
 {{ if .Params.project_info.backstage }}
   <div class="row hr">
@@ -176,7 +210,7 @@
                         </div>
                     </div>
                 {{ end }}
-              {{ end }}
+            {{ end }}
           {{ end }}
 
         <!-- </div> -->
