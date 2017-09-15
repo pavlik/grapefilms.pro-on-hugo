@@ -13,7 +13,7 @@ description = "Контактная информация видеостудии 
 <br/>+7 (861) 325-95-00
 
 **Почта:**
-<br/><a href="mailto:mail@grapefilms.pro?subj=videoproduction">mail@grapefilms.pro</a>
+<br/><a href="mailto:hello@grapefilms.pro?subj=videoproduction">hello@grapefilms.pro</a>
 
 **Telegram messenger:**
 <br/>[@grapefilms](http://telegram.me/grapefilms)
