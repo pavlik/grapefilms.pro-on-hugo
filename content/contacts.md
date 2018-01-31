@@ -16,7 +16,7 @@ description = "Контактная информация видеостудии 
 <br/><a href="mailto:hello@grapefilms.pro?subj=videoproduction">hello@grapefilms.pro</a>
 
 **Telegram messenger:**
-<br/>[@grapefilms](http://telegram.me/iamgrape)
+<br/>[@iamgrape](http://telegram.me/iamgrape)
 
 <!--
 **Социальные сети**
