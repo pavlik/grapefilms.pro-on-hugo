@@ -1,7 +1,7 @@
 +++
 author = "Павел Павленко"
 date = "2016-10-14T13:00:00+03:00"
-description = "Шоурил Grapefilms 2016"
+description = "Шоурил Grapefilms"
 keywords = ["рекламный ролик", "видеореклама", "showreel", "шоурил"]
 thumbnail = ""
 title = "Showreel 2016"
