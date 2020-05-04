@@ -1,55 +1,70 @@
 <!DOCTYPE html>
 <html prefix='og: http://ogp.me/ns#'>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="village-geek.ru">
-        <title>{{ with .Title }}{{ . }}{{ else }}{{ with .Site.Title }}{{ . }}{{ end }}{{ end }}</title>
-        <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}"/>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="village-geek.ru">
+		<title>
+			{{ with .Title }}
+				{{ . }}
+			{{ else }}
+				{{ with .Site.Title }}
+					{{ . }}
+				{{ end }}
+			{{ end }}
+		</title>
+		<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}"/>
 
-        {{ if .Keywords }}<meta name="keywords" content="{{ delimit .Keywords ", " }}">
-        {{ else }}<meta name="keywords" content="{{ delimit .Site.Params.keywords ", " }}">{{ end }}
+		{{ if .Keywords }}<meta name="keywords" content="{{ delimit .Keywords ", " }}">
+			{{ else }}<meta name="keywords" content="{{ delimit .Site.Params.keywords ", " }}">
+		{{ end }}
 
-        <meta name="robots" content="all"/>
+		<meta
+		name="robots" content="all"/>
 
-        <!-- Open Graph -->
-        <meta property="og:title" content="Продакшн студия Grapefilms" />
-        <meta property="og:type" content="article" />
-        <meta property="og:url" content="{{ .Permalink }}" />
-        <meta property="og:image" content="{{ .Site.BaseURL }}images/other/gf_mainpage_logo.jpg" />
-        <meta property="og:description" content="{{ .Site.Params.description }}" />
-        <meta property="og:site_name" content="Grapefilms.pro" />
+		<!-- Open Graph -->
+		<meta property="og:title" content="Продакшн студия Grapefilms"/>
+		<meta property="og:type" content="article"/>
+		<meta property="og:url" content="{{ .Permalink }}"/>
+		<meta property="og:image" content="{{ .Site.BaseURL }}images/other/gf_mainpage_logo.jpg"/>
+		<meta property="og:description" content="{{ .Site.Params.description }}"/>
+		<meta
+		property="og:site_name" content="Grapefilms.pro"/>
 
-        <!--Twitter Cards-->
-        <meta name="twitter:card" content="summary">
-        <!--<meta name="twitter:card" content="summary_large_image">-->
-        <meta name="twitter:site" content="@grapefilms">
-        <meta name="twitter:title" content="{{ .Title }}">
-        <meta name="twitter:creator" content="@grapefilms">
-        <meta name="twitter:description" content="{{ .Description }}">
-        <meta name="twitter:domain" content="grapefilms.pro">
+		<!--Twitter Cards-->
+		<meta
+		name="twitter:card" content="summary">
+		<!--<meta name="twitter:card" content="summary_large_image">-->
+		<meta name="twitter:site" content="@grapefilms">
+		<meta name="twitter:title" content="{{ .Title }}">
+		<meta name="twitter:creator" content="@grapefilms">
+		<meta name="twitter:description" content="{{ .Description }}">
+		<meta name="twitter:domain" content="grapefilms.pro">
 
-        <link rel="icon" href="{{ .Site.BaseURL }}favicon.png" type="image/png">
+		<link rel="icon" href="{{ .Site.BaseURL }}favicon.png" type="image/png">
 
-        <link rel="canonical" href="{{ .Permalink }}">
-        <link href="/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />
-        {{ partial "css.html" . }}
-    </head>
+		<link rel="canonical" href="{{ .Permalink }}">
+		<link href="/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Title }}"/>
+		{{ partial "css.html" . }}
+	</head>
 
-    <body>
-        <div class="container">
+	<body>
+		<div class="container">
 
-            <div class="page-header">
-                <div class="row">
-                    <div class="logo col-md-4">
-                          <a href="#"><img src="/images/other/gf_logo.svg" class="img-responsive" alt="Продакшн студия Grapefilms"></a>
-                    </div>
-                    <div class="col-md-8 vertical-align">
-                        <p class="logo-text lead">Корпоративные фильмы и видеореклама
-                        <br/><strong>+7 (918) 67-00-777</strong></p><br/>
-                        {{ partial "menu.html" . }}
+			<div class="page-header">
+				<div class="row">
+					<div class="logo col-md-4">
+						<a href="#"><img src="/images/other/gf_logo.svg" class="img-responsive" alt="Продакшн студия Grapefilms"></a>
+					</div>
+					<div class="col-md-8 vertical-align">
+						<p class="logo-text lead">Корпоративные фильмы и видеореклама
+							<br/><strong>
+								<a href="mailto:mail@grapefilms.pro?subj=videoproduction">mail@grapefilms.pro</a>
+							</strong>
+						</p><br/>
+						{{ partial "menu.html" . }}
 
-                    </div>
-                </div>
-            </div>
+					</div>
+				</div>
+			</div>

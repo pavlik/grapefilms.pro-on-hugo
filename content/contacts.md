@@ -5,18 +5,13 @@ keywords = ["контакты", "контактная информация", "а
 description = "Контактная информация видеостудии Grapefilms"
 +++
 
-Работаем по всей России.
-
-**Наш адрес:** Краснодарский край, г. Краснодар, ул. Коммунаров, 76
-
-**Телефоны:**
-<br/>+7 (918) 67-00-777
+Работаем по всей России. Находимся в Краснодаре.
 
 **Почта:**
-<br/><a href="mailto:hello@grapefilms.pro?subj=videoproduction">hello@grapefilms.pro</a>
+<br/><a href="mailto:mail@grapefilms.pro?subj=videoproduction">mail@grapefilms.pro</a>
 
 **Telegram messenger:**
-<br/>[@iamgrape](http://telegram.me/iamgrape)
+<br/>[@region23](http://telegram.me/region23)
 
 <!--
 **Социальные сети**
