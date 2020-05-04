@@ -1,94 +1,97 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="village-geek.ru">
-        <title>Портфолио Grapefilms</title>
-        <meta name="description" content="Посмотрите снятые нашей студией рекламные ролики, корпоративные фильмы и музыкальные клипы"/>
-        <meta name="keywords" content="портфолио, музыкальный клип, корпоративный фильм, рекламный ролик, презентационный фильм"/>
-        <meta name="robots" content="all"/>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="village-geek.ru">
+		<title>Портфолио Grapefilms</title>
+		<meta name="description" content="Посмотрите снятые нашей студией рекламные ролики, корпоративные фильмы и музыкальные клипы"/>
+		<meta name="keywords" content="портфолио, музыкальный клип, корпоративный фильм, рекламный ролик, презентационный фильм"/>
+		<meta
+		name="robots" content="all"/>
 
-         <!-- open graph -->
-        <meta property="og:type" content="article"/>
-        <meta property="og:title" content="Портфолио Grapefilms"/>
-        <meta property="og:site_name" content="Продакшн студия Grapefilms"/>
-        <meta property="og:url" content="{{ .Permalink }}">
-        <meta property="og:locale" content="ru_RU">
-        <meta property="article:published_time" content="{{ .Date.Format "01.02.2006" }}"/>
-        <meta property="article:modified_time" content="{{ .Date.Format "01.02.2006" }}"/>
+		<!-- open graph -->
+		<meta property="og:type" content="article"/>
+		<meta property="og:title" content="Портфолио Grapefilms"/>
+		<meta property="og:site_name" content="Продакшн студия Grapefilms"/>
+		<meta property="og:url" content="{{ .Permalink }}">
+		<meta property="og:locale" content="ru_RU">
+		<meta property="article:published_time" content="{{ .Date.Format "01.02.2006" }}"/>
+		<meta
+		property="article:modified_time" content="{{ .Date.Format "01.02.2006" }}"/>
 
-        <!--Twitter Cards-->
-        <meta name="twitter:card" content="summary">
-        <!--<meta name="twitter:card" content="summary_large_image">-->
-        <meta name="twitter:site" content="@grapefilms">
-        <meta name="twitter:title" content="Портфолио Grapefilms">
-        <meta name="twitter:creator" content="@grapefilms">
-        <meta name="twitter:domain" content="grapefilms.pro">
+		<!--Twitter Cards-->
+		<meta
+		name="twitter:card" content="summary">
+		<!--<meta name="twitter:card" content="summary_large_image">-->
+		<meta name="twitter:site" content="@grapefilms">
+		<meta name="twitter:title" content="Портфолио Grapefilms">
+		<meta name="twitter:creator" content="@grapefilms">
+		<meta name="twitter:domain" content="grapefilms.pro">
 
-        <link rel="icon" href="{{ .Site.BaseURL }}favicon.png" type="image/png">
+		<link rel="icon" href="{{ .Site.BaseURL }}favicon.png" type="image/png">
 
-        <link rel="canonical" href="{{ .Permalink }}">
-        <link href="/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />
-        {{ partial "css.html" . }}
-    </head>
+		<link rel="canonical" href="{{ .Permalink }}">
+		<link href="/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Title }}"/>
+		{{ partial "css.html" . }}
+	</head>
 
-    <body>
-        <div class="container">
+	<body>
+		<div class="container">
 
-            <div class="page-header">
-              <div class="row">
-                  <div class="logo col-md-4">
-                        <a href="/"><img src="/images/other/gf_logo.svg" class="img-responsive" alt="Продакшн студия Grapefilms"></a>
-                  </div>
-                  <div class="col-md-8 vertical-align">
-                       <p class="logo-text lead">Корпоративные фильмы и видеореклама
-                        <br/><strong>+7 (918) 67-00-777</strong></p><br/>
-                      {{ partial "menu.html" . }}
+			<div class="page-header">
+				<div class="row">
+					<div class="logo col-md-4">
+						<a href="/"><img src="/images/other/gf_logo.svg" class="img-responsive" alt="Продакшн студия Grapefilms"></a>
+					</div>
+					<div class="col-md-8 vertical-align">
+						<p class="logo-text lead">Корпоративные фильмы и видеореклама
+						</p><br/>
+						{{ partial "menu.html" . }}
 
-                  </div>
-              </div>
-            </div>
+					</div>
+				</div>
+			</div>
 
-<!-- Page Header -->
-<div class="row">
-    <div class="col-md-12">
-        <h3>Портфолио</h3>
-    </div>
-</div>
+			<!-- Page Header -->
+			<div class="row">
+				<div class="col-md-12">
+					<h3>Портфолио</h3>
+				</div>
+			</div>
 
 
+			{{ $portfolio := where .Data.Pages "Section" "portfolio" }}
+			{{ $len := sub (len $portfolio) 1 }}
 
-{{ $portfolio := where .Data.Pages "Section" "portfolio" }}
-  {{ $len := sub (len $portfolio) 1 }}
+			{{ range $index, $el := $portfolio }}
+				{{ if modBool $index 2 }}
+					<div class="row">
+						<div class="col-md-6">
+							<a href="{{ .Permalink }}">
+								<img src="{{ .Site.BaseURL }}images/portfolio/{{ .Params.project_info.photo }}" alt="" class="img-responsive">
+								<h5>{{ .Title }}</h5>
+							</a>
+						</div>
+					{{ else }}
+						<div class="col-md-6">
+							<a href="{{ .Permalink }}">
+								<img src="{{ .Site.BaseURL }}images/portfolio/{{ .Params.project_info.photo }}" alt="" class="img-responsive">
+								<h5>{{ .Title }}</h5>
+							</a>
+						</div>
+					</div>
+				{{ end }}
 
-  {{ range $index, $el := $portfolio }}
-    {{ if modBool $index 2 }}
- 		    <div class="row">
-            <div class="col-md-6">
-              <a href="{{ .Permalink }}">
-                <img src="{{ .Site.BaseURL }}images/portfolio/{{ .Params.project_info.photo }}" alt="" class="img-responsive">
-                <h5>{{ .Title }}</h5>
-              </a>
-            </div>
-    {{ else }}
-            <div class="col-md-6">
-              <a href="{{ .Permalink }}">
-                <img src="{{ .Site.BaseURL }}images/portfolio/{{ .Params.project_info.photo }}" alt="" class="img-responsive">
-                <h5>{{ .Title }}</h5>
-              </a>
-            </div>
-        </div>
-    {{ end }}
+				{{ if (not (modBool (len $portfolio) 2)) }}
+					{{ if eq $len (add $index 0) }}
+						<div class="col-md-6"></div>
+					</div>
+				{{ end }}
+			{{ end }}
+		{{ end }}
 
-  {{ if (not (modBool (len $portfolio) 2)) }}
-      {{ if eq $len (add $index 0) }}
-              <div class="col-md-6">
-              </div>
-          </div>
-      {{ end }}
-    {{ end }}
-  {{ end }}
-
-{{ partial "footer.html" . }}
+		{{ partial "footer.html" . }}
+	</body>
+</html>

@@ -1,76 +1,80 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="village-geek.ru">
-        <title>Блог Grapefilms</title>
-        <meta name="description" content="Полезные статьи о видеопроизводстве, видеосъёмке и видеомонтаже"/>
-        <meta name="keywords" content="видеопроизводство, видеосъёмка, видеомонтаж, стоимость ролика"/>
-        <meta name="robots" content="all"/>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="village-geek.ru">
+		<title>Блог Grapefilms</title>
+		<meta name="description" content="Полезные статьи о видеопроизводстве, видеосъёмке и видеомонтаже"/>
+		<meta name="keywords" content="видеопроизводство, видеосъёмка, видеомонтаж, стоимость ролика"/>
+		<meta
+		name="robots" content="all"/>
 
-         <!-- open graph -->
-        <meta property="og:type" content="article"/>
-        <meta property="og:title" content="Блог Grapefilms"/>
-        <meta property="og:site_name" content="Продакшн студия Grapefilms"/>
-        <meta property="og:url" content="{{ .Permalink }}">
-        <meta property="og:locale" content="ru_RU">
-        <meta property="article:published_time" content="{{ .Date.Format "01.02.2006" }}"/>
-        <meta property="article:modified_time" content="{{ .Date.Format "01.02.2006" }}"/>
+		<!-- open graph -->
+		<meta property="og:type" content="article"/>
+		<meta property="og:title" content="Блог Grapefilms"/>
+		<meta property="og:site_name" content="Продакшн студия Grapefilms"/>
+		<meta property="og:url" content="{{ .Permalink }}">
+		<meta property="og:locale" content="ru_RU">
+		<meta property="article:published_time" content="{{ .Date.Format "01.02.2006" }}"/>
+		<meta property="article:modified_time" content="{{ .Date.Format "01.02.2006" }}"/>
 
-        {{ range .Keywords }}<meta property="article:tag" content="{{ . }}">{{ end }}
+		{{ range .Keywords }}<meta property="article:tag" content="{{ . }}">
+		{{ end }}
 
-        <!--Twitter Cards-->
-        <meta name="twitter:card" content="summary">
-        <!--<meta name="twitter:card" content="summary_large_image">-->
-        <meta name="twitter:site" content="@grapefilms">
-        <meta name="twitter:title" content="Блог Grapefilms">
-        <meta name="twitter:creator" content="@grapefilms">
-        <meta name="twitter:domain" content="grapefilms.pro">
+		<!--Twitter Cards-->
+		<meta
+		name="twitter:card" content="summary">
+		<!--<meta name="twitter:card" content="summary_large_image">-->
+		<meta name="twitter:site" content="@grapefilms">
+		<meta name="twitter:title" content="Блог Grapefilms">
+		<meta name="twitter:creator" content="@grapefilms">
+		<meta name="twitter:domain" content="grapefilms.pro">
 
-        <link rel="icon" href="{{ .Site.BaseURL }}favicon.png" type="image/png">
+		<link rel="icon" href="{{ .Site.BaseURL }}favicon.png" type="image/png">
 
-        <link rel="canonical" href="{{ .Permalink }}">
-        <link href="/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />
-        {{ partial "css.html" . }}
-    </head>
+		<link rel="canonical" href="{{ .Permalink }}">
+		<link href="/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Title }}"/>
+		{{ partial "css.html" . }}
+	</head>
 
-    <body>
-        <div class="container">
+	<body>
+		<div class="container">
 
-            <div class="page-header">
-              <div class="row">
-                  <div class="logo col-md-4">
-                        <a href="/"><img src="/images/other/gf_logo.svg" class="img-responsive" alt="Продакшн студия Grapefilms"></a>
-                  </div>
-                  <div class="col-md-8 vertical-align">
-                       <p class="logo-text lead">Корпоративные фильмы и видеореклама
-                        <br/><strong>+7 (918) 67-00-777</strong></p><br/>
-                      {{ partial "menu.html" . }}
+			<div class="page-header">
+				<div class="row">
+					<div class="logo col-md-4">
+						<a href="/"><img src="/images/other/gf_logo.svg" class="img-responsive" alt="Продакшн студия Grapefilms"></a>
+					</div>
+					<div class="col-md-8 vertical-align">
+						<p class="logo-text lead">Корпоративные фильмы и видеореклама
+						</p><br/>
+						{{ partial "menu.html" . }}
 
-                  </div>
-              </div>
-            </div>
+					</div>
+				</div>
+			</div>
 
-<!-- Page Header -->
-<div class="row">
-    <div class="col-md-12">
-        <h3>Блог</h3>
-    </div>
-</div>
+			<!-- Page Header -->
+			<div class="row">
+				<div class="col-md-12">
+					<h3>Блог</h3>
+				</div>
+			</div>
 
-<div class="row">
-    <div class="col-md-12">
-      <ul class="posts list-unstyled">
-          {{ range $k, $v := .Site.Taxonomies.tags.blog }}
-          <li>
-            <h4><!-- {{ .Page.Date.Format  "02.01.2006" }}&nbsp;&nbsp; --><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></h4>
-            <!-- {{ .Page.Summary }}   -->
-          </li>
-          {{ end }}
-      </ul>
-    </div>
-</div>
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="posts list-unstyled">
+						{{ range $k, $v := .Site.Taxonomies.tags.blog }}
+							<li>
+								<h4><!-- {{ .Page.Date.Format  "02.01.2006" }}&nbsp;&nbsp; --><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+								</h4>
+								<!-- {{ .Page.Summary }}   -->
+							</li>
+						{{ end }}
+					</ul>
+				</div>
+			</div>
 
-{{ partial "footer.html" . }}
+			{{ partial "footer.html" . }}
